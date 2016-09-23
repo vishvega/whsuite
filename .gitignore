@@ -1,0 +1,11 @@
+.DS_Store
+www/whsuite/app/configs/database.php
+www/whsuite/app/storage/logs/*.log
+www/whsuite/app/storage/translations/*
+www/whsuite/app/storage/uploader/*
+www/whsuite/vendor/*
+www/whsuite/composer.lock
+*.installed
+www/cgi-bin
+.idea/*
+www/whsuite/app/addons/*

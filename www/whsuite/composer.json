@@ -1,0 +1,56 @@
+{
+    "name": "whsuite/whsuite",
+    "description": "Web Hosting Suite",
+    "license": "MIT",
+    "version": "1.2.0",
+    "authors": [
+        {
+            "name": "Mike Barlow",
+            "email": "mike@whsuite.com"
+        },
+        {
+            "name": "Ricky Mills",
+            "email": "rick@whsuite.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/database": "4.1.*",
+        "doctrine/dbal": "~2.3",
+        "dflydev/dot-access-data": "1.0.*",
+        "aura/router": "1.*",
+        "aura/session": "1.*",
+        "monolog/monolog": "1.6.*",
+        "symfony/filesystem": "2.3.*",
+        "symfony/finder": "2.3.*",
+        "cartalyst/sentry": "2.0.*",
+        "ircmaxell/password-compat": "1.0.*",
+
+        "whsuite/utilities": "1.*",
+        "whsuite/forms": "1.*",
+        "whsuite/validator": "1.*",
+        "whsuite/translation": "1.*",
+        "whsuite/customfields": "1.*",
+        "whsuite/breadcrumbs": "1.*",
+        "whsuite/money": "1.*",
+        "whsuite/email": "1.*",
+        "whsuite/settings": "1.*",
+        "whsuite/migrations": "1.*",
+        "whsuite/http": "1.*",
+        "whsuite/composer-installer": "1.*",
+        "whsuite/purchase-data": "1.*",
+
+        "dompdf/dompdf": "0.6.2",
+        "phpseclib/phpseclib": "0.3.5",
+        "giggsey/libphonenumber-for-php": "7.*",
+        "keboola/csv": "1.1.*",
+        "patchwork/utf8": "1.1.*",
+        "naneau/semver": "0.*",
+        "filp/whoops": "1.*"
+    },
+
+    "require-dev": {
+        "whsuite/dev-tools": "1.*"
+    }
+}

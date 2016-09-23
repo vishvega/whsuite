@@ -1,0 +1,3963 @@
+{
+    "name": "English",
+    "slug": "en",
+    "is_active": "1",
+    "language_code": "en",
+    "text_direction": "LTR",
+    "Strings": [
+        {
+            "slug": "not_available",
+            "text": "N\/A"
+        },
+        {
+            "slug": "active",
+            "text": "Active"
+        },
+        {
+            "slug": "inactive",
+            "text": "Inactive"
+        },
+        {
+            "slug": "pending",
+            "text": "Pending"
+        },
+        {
+            "slug": "cancelled",
+            "text": "Cancelled"
+        },
+        {
+            "slug": "edit",
+            "text": "Edit"
+        },
+        {
+            "slug": "add",
+            "text": "Add"
+        },
+        {
+            "slug": "delete",
+            "text": "Delete"
+        },
+        {
+            "slug": "save",
+            "text": "Save"
+        },
+        {
+            "slug": "cancel",
+            "text": "Cancel"
+        },
+        {
+            "slug": "name",
+            "text": "Name"
+        },
+        {
+            "slug": "email",
+            "text": "Email"
+        },
+        {
+            "slug": "status",
+            "text": "Status"
+        },
+        {
+            "slug": "last_login",
+            "text": "Last Login"
+        },
+        {
+            "slug": "dashboard",
+            "text": "Dashboard"
+        },
+        {
+            "slug": "staff_management",
+            "text": "Staff Management"
+        },
+        {
+            "slug": "first_name",
+            "text": "First Name"
+        },
+        {
+            "slug": "last_name",
+            "text": "Last Name"
+        },
+        {
+            "slug": "password",
+            "text": "Password"
+        },
+        {
+            "slug": "confirm_password",
+            "text": "Confirm Password"
+        },
+        {
+            "slug": "permissions",
+            "text": "Permissions"
+        },
+        {
+            "slug": "activated",
+            "text": "Activated"
+        },
+        {
+            "slug": "language",
+            "text": "Language"
+        },
+        {
+            "slug": "create_staff_member",
+            "text": "Create A New Staff Member"
+        },
+        {
+            "slug": "add_user",
+            "text": "Add User"
+        },
+        {
+            "slug": "staff_details_saved",
+            "text": "The staff member details were successfully saved."
+        },
+        {
+            "slug": "staff_details_error",
+            "text": "There was a problem saving the staff member details."
+        },
+        {
+            "slug": "password_leave_blank",
+            "text": "Leave blank to keep existing password."
+        },
+        {
+            "slug": "validation.email",
+            "text": "The {field} field did not contain a valid email address."
+        },
+        {
+            "slug": "form_errors",
+            "text": "Please correct the following error(s) before continuing:"
+        },
+        {
+            "slug": "validation.same",
+            "text": "The {field} field did not match the confirmation field."
+        },
+        {
+            "slug": "yes",
+            "text": "Yes"
+        },
+        {
+            "slug": "no",
+            "text": "No"
+        },
+        {
+            "slug": "delete_staff_user",
+            "text": "Delete Staff User"
+        },
+        {
+            "slug": "delete_staff_body",
+            "text": "You can click the button below to permanently delete this staff member. This can not be undone."
+        },
+        {
+            "slug": "popup_confirm",
+            "text": "Are you sure? This can not be undone."
+        },
+        {
+            "slug": "cant_delete_primary_staff_user",
+            "text": "The primary user can not be deleted."
+        },
+        {
+            "slug": "staff_user_deleted",
+            "text": "The staff user was successfully deleted."
+        },
+        {
+            "slug": "cant_delete_primary_staff_group",
+            "text": "The primary staff user group can not be deleted."
+        },
+        {
+            "slug": "add_group",
+            "text": "Add Group"
+        },
+        {
+            "slug": "orders",
+            "text": "Orders"
+        },
+        {
+            "slug": "clients",
+            "text": "Clients"
+        },
+        {
+            "slug": "reports",
+            "text": "Reports"
+        },
+        {
+            "slug": "addons",
+            "text": "Addons"
+        },
+        {
+            "slug": "view_addons",
+            "text": "View Addons"
+        },
+        {
+            "slug": "addon_store",
+            "text": "Addon Store"
+        },
+        {
+            "slug": "manual_addon_install",
+            "text": "Manual Addon Install"
+        },
+        {
+            "slug": "settings",
+            "text": "Settings"
+        },
+        {
+            "slug": "profile",
+            "text": "Profile"
+        },
+        {
+            "slug": "logout",
+            "text": "Logout"
+        },
+        {
+            "slug": "logged_in_as",
+            "text": "Logged in as"
+        },
+        {
+            "slug": "validation.required",
+            "text": "The {field} field must be filled out."
+        },
+        {
+            "slug": "login_as_client",
+            "text": "Login as Client"
+        },
+        {
+            "slug": "new_order",
+            "text": "New Order"
+        },
+        {
+            "slug": "client_contact_details",
+            "text": "Client Contact Details"
+        },
+        {
+            "slug": "client_statistics",
+            "text": "Client Statistics"
+        },
+        {
+            "slug": "company",
+            "text": "Company"
+        },
+        {
+            "slug": "address",
+            "text": "Address"
+        },
+        {
+            "slug": "telephone",
+            "text": "Telephone"
+        },
+        {
+            "slug": "account_balance",
+            "text": "Account Balance"
+        },
+        {
+            "slug": "email_new_password",
+            "text": "Email New Password"
+        },
+        {
+            "slug": "last_ip_address",
+            "text": "Last IP Address"
+        },
+        {
+            "slug": "currency",
+            "text": "Currency"
+        },
+        {
+            "slug": "total_products",
+            "text": "Total Products"
+        },
+        {
+            "slug": "active_products",
+            "text": "Active Products"
+        },
+        {
+            "slug": "account_status",
+            "text": "Account Status"
+        },
+        {
+            "slug": "products",
+            "text": "Products"
+        },
+        {
+            "slug": "invoices",
+            "text": "Invoices"
+        },
+        {
+            "slug": "transactions",
+            "text": "Transactions"
+        },
+        {
+            "slug": "email_log",
+            "text": "Email Log"
+        },
+        {
+            "slug": "edit_details",
+            "text": "Edit Details"
+        },
+        {
+            "slug": "client_notes",
+            "text": "Client Notes"
+        },
+        {
+            "slug": "never",
+            "text": "Never"
+        },
+        {
+            "slug": "all_products",
+            "text": "All Products"
+        },
+        {
+            "slug": "product",
+            "text": "Product"
+        },
+        {
+            "slug": "type",
+            "text": "Type"
+        },
+        {
+            "slug": "manage",
+            "text": "Manage"
+        },
+        {
+            "slug": "invoice_no",
+            "text": "Invoice No"
+        },
+        {
+            "slug": "date_created",
+            "text": "Date Created"
+        },
+        {
+            "slug": "date_due",
+            "text": "Date Due"
+        },
+        {
+            "slug": "date_paid",
+            "text": "Date Paid"
+        },
+        {
+            "slug": "total_due",
+            "text": "Total Due"
+        },
+        {
+            "slug": "total_paid",
+            "text": "Total Paid"
+        },
+        {
+            "slug": "new_invoice",
+            "text": "New Invoice"
+        },
+        {
+            "slug": "all_invoices",
+            "text": "All Invoices"
+        },
+        {
+            "slug": "gateway",
+            "text": "Gateway"
+        },
+        {
+            "slug": "description",
+            "text": "Description"
+        },
+        {
+            "slug": "all_transactions",
+            "text": "All Transactions"
+        },
+        {
+            "slug": "subject",
+            "text": "Subject"
+        },
+        {
+            "slug": "date_sent",
+            "text": "Date Sent"
+        },
+        {
+            "slug": "view",
+            "text": "View"
+        },
+        {
+            "slug": "send_email",
+            "text": "Send Email"
+        },
+        {
+            "slug": "all_emails",
+            "text": "All Emails"
+        },
+        {
+            "slug": "address1",
+            "text": "Address Line 1"
+        },
+        {
+            "slug": "address2",
+            "text": "Address Line 2"
+        },
+        {
+            "slug": "city",
+            "text": "Town\/City"
+        },
+        {
+            "slug": "state",
+            "text": "State\/County"
+        },
+        {
+            "slug": "postcode",
+            "text": "Post\/Zip Code"
+        },
+        {
+            "slug": "country",
+            "text": "Country"
+        },
+        {
+            "slug": "is_taxexempt",
+            "text": "Tax Exempt?"
+        },
+        {
+            "slug": "html_emails",
+            "text": "Receive HTML Formatted Emails?"
+        },
+        {
+            "slug": "required_field",
+            "text": "Required Field"
+        },
+        {
+            "slug": "client_management",
+            "text": "Client Management"
+        },
+        {
+            "slug": "manage_client",
+            "text": "Manage Client"
+        },
+        {
+            "slug": "client_updated",
+            "text": "The client has been updated."
+        },
+        {
+            "slug": "statistics",
+            "text": "Statistics"
+        },
+        {
+            "slug": "active_clients",
+            "text": "Active Clients"
+        },
+        {
+            "slug": "inactive_clients",
+            "text": "Inactive Clients"
+        },
+        {
+            "slug": "fraud_clients",
+            "text": "Fraud Clients"
+        },
+        {
+            "slug": "total_clients",
+            "text": "Total Clients"
+        },
+        {
+            "slug": "filter_results",
+            "text": "Filter Results"
+        },
+        {
+            "slug": "fraud",
+            "text": "Fraud"
+        },
+        {
+            "slug": "account_closed",
+            "text": "Account Closed"
+        },
+        {
+            "slug": "add_client",
+            "text": "Add Client"
+        },
+        {
+            "slug": "add_funds",
+            "text": "Add Funds"
+        },
+        {
+            "slug": "start_typing_email_here",
+            "text": "Start typing your email here..."
+        },
+        {
+            "slug": "mustache_description",
+            "text": "WHSuite uses a templating system called 'Mustache' for sending emails. Take a look at the WHSuite documentation for instructions on how you can take advantage of Mustache when composing emails!"
+        },
+        {
+            "slug": "error_sending_password_to_client",
+            "text": "There was a problem sending a new password to the client. Please try again."
+        },
+        {
+            "slug": "new_password_sent_to_client",
+            "text": "A new password has been emailed to the client."
+        },
+        {
+            "slug": "to",
+            "text": "To"
+        },
+        {
+            "slug": "cc",
+            "text": "CC"
+        },
+        {
+            "slug": "bcc",
+            "text": "BCC"
+        },
+        {
+            "slug": "resend_email",
+            "text": "Resend Email"
+        },
+        {
+            "slug": "delete_email",
+            "text": "Delete Email"
+        },
+        {
+            "slug": "close",
+            "text": "Close"
+        },
+        {
+            "slug": "view_email",
+            "text": "View Email"
+        },
+        {
+            "slug": "available_variables",
+            "text": "Available Variables"
+        },
+        {
+            "slug": "variable",
+            "text": "Variable"
+        },
+        {
+            "slug": "value",
+            "text": "Value"
+        },
+        {
+            "slug": "compose_email",
+            "text": "Compose Email"
+        },
+        {
+            "slug": "send_as",
+            "text": "Send As"
+        },
+        {
+            "slug": "plaintext_preview",
+            "text": "Plaintext Preview"
+        },
+        {
+            "slug": "email_sent",
+            "text": "The email was successfully sent."
+        },
+        {
+            "slug": "email_sending_failed",
+            "text": "There was a problem sending the email. Please try again."
+        },
+        {
+            "slug": "email_deleted",
+            "text": "The email was successfully deleted from the log."
+        },
+        {
+            "slug": "email_deleting_failed",
+            "text": "There was a problem deleting the email from the log. Please try again."
+        },
+        {
+            "slug": "confirm_delete",
+            "text": "Are you sure? Once deleted this item can not be recovered."
+        },
+        {
+            "slug": "plain_text",
+            "text": "Plain Text"
+        },
+        {
+            "slug": "html",
+            "text": "HTML"
+        },
+        {
+            "slug": "contact_details",
+            "text": "Contact Details"
+        },
+        {
+            "slug": "change_password",
+            "text": "Change Password (optional)"
+        },
+        {
+            "slug": "account_options",
+            "text": "Account Options"
+        },
+        {
+            "slug": "note",
+            "text": "Note"
+        },
+        {
+            "slug": "new_note",
+            "text": "New Note"
+        },
+        {
+            "slug": "all_notes",
+            "text": "All Notes"
+        },
+        {
+            "slug": "date_renewal",
+            "text": "Renewal Date"
+        },
+        {
+            "slug": "client",
+            "text": "Client"
+        },
+        {
+            "slug": "transaction_id",
+            "text": "Transaction ID"
+        },
+        {
+            "slug": "billing",
+            "text": "Billing"
+        },
+        {
+            "slug": "pdf",
+            "text": "PDF"
+        },
+        {
+            "slug": "paid",
+            "text": "Paid"
+        },
+        {
+            "slug": "unpaid",
+            "text": "Unpaid"
+        },
+        {
+            "slug": "void",
+            "text": "Void"
+        },
+        {
+            "slug": "order_id",
+            "text": "Order ID"
+        },
+        {
+            "slug": "item",
+            "text": "Item"
+        },
+        {
+            "slug": "unit_price",
+            "text": "Unit Price"
+        },
+        {
+            "slug": "taxable",
+            "text": "Taxable"
+        },
+        {
+            "slug": "download_pdf",
+            "text": "Download PDF"
+        },
+        {
+            "slug": "email_to_client",
+            "text": "Email to Client"
+        },
+        {
+            "slug": "void_invoice",
+            "text": "Void Invoice"
+        },
+        {
+            "slug": "subtotal",
+            "text": "Subtotal"
+        },
+        {
+            "slug": "level_1_tax",
+            "text": "Level 1 Tax"
+        },
+        {
+            "slug": "level_2_tax",
+            "text": "Level 2 Tax"
+        },
+        {
+            "slug": "total",
+            "text": "Total"
+        },
+        {
+            "slug": "invoice_to",
+            "text": "Invoice To"
+        },
+        {
+            "slug": "view_invoice",
+            "text": "View Invoice"
+        },
+        {
+            "slug": "add_payment",
+            "text": "Add Payment"
+        },
+        {
+            "slug": "account_credit",
+            "text": "Account Credit"
+        },
+        {
+            "slug": "refund",
+            "text": "Refund"
+        },
+        {
+            "slug": "edit_invoice",
+            "text": "Edit Invoice"
+        },
+        {
+            "slug": "total_remainin_due",
+            "text": "Total Remaining"
+        },
+        {
+            "slug": "no_transactions_applied",
+            "text": "No transactions have been applied to this invoice."
+        },
+        {
+            "slug": "applied_transactions",
+            "text": "Applied Transactions"
+        },
+        {
+            "slug": "invoice_updated",
+            "text": "The invoice was successfully updated"
+        },
+        {
+            "slug": "invoice_update_failed",
+            "text": "There was a problem updating the invoice. Please try again."
+        },
+        {
+            "slug": "unvoid_invoice",
+            "text": "Unvoid Invoice"
+        },
+        {
+            "slug": "pre_tax_discount",
+            "text": "Pre-Tax Discount"
+        },
+        {
+            "slug": "post_tax_discount",
+            "text": "Post-Tax Discount"
+        },
+        {
+            "slug": "discount",
+            "text": "Discount"
+        },
+        {
+            "slug": "discount_type",
+            "text": "Discount Type"
+        },
+        {
+            "slug": "percentage",
+            "text": "Percentage"
+        },
+        {
+            "slug": "fixed_amount",
+            "text": "Fixed Amount"
+        },
+        {
+            "slug": "discount_application",
+            "text": "Discount Application"
+        },
+        {
+            "slug": "after_tax",
+            "text": "After Tax"
+        },
+        {
+            "slug": "before_tax",
+            "text": "Before Tax"
+        },
+        {
+            "slug": "update_invoice",
+            "text": "Update Invoice"
+        },
+        {
+            "slug": "client_is_tax_exempt",
+            "text": "This client is exempt from any taxes."
+        },
+        {
+            "slug": "amount",
+            "text": "Amount"
+        },
+        {
+            "slug": "none",
+            "text": "None"
+        },
+        {
+            "slug": "available_credit",
+            "text": "Available Credit"
+        },
+        {
+            "slug": "amount_to_apply",
+            "text": "Amount To Apply"
+        },
+        {
+            "slug": "an_error_occurred",
+            "text": "An unknown error occurred. The action you requested could not be completed. Please check you correctly filled out any requested information, and try again."
+        },
+        {
+            "slug": "payment_received_from_transaction",
+            "text": "Payment received from transaction"
+        },
+        {
+            "slug": "via_gateway",
+            "text": "Via Gateway"
+        },
+        {
+            "slug": "client_insufficient_credit",
+            "text": "The client has insufficient credit to cover the expense."
+        },
+        {
+            "slug": "manual_credit_payment",
+            "text": "Manual credit payment"
+        },
+        {
+            "slug": "created_by",
+            "text": "Created by"
+        },
+        {
+            "slug": "notes",
+            "text": "Notes"
+        },
+        {
+            "slug": "pdf_generated",
+            "text": "PDF generated on"
+        },
+        {
+            "slug": "invoice_emailed_to_client",
+            "text": "The invoice has been emailed to your client."
+        },
+        {
+            "slug": "error_emailing_invoice_to_client",
+            "text": "There was an error emailing the invoice to your client. Check both your system mail settings, and the client email address are valid, and try again."
+        },
+        {
+            "slug": "transaction_voided",
+            "text": "The transaction record was successfully marked as void."
+        },
+        {
+            "slug": "error_deleting_transaction",
+            "text": "There was an error deleting the transaction. Please try again."
+        },
+        {
+            "slug": "receipt",
+            "text": "Receipt"
+        },
+        {
+            "slug": "invoice",
+            "text": "Invoice"
+        },
+        {
+            "slug": "client_insufficient_credit_transaction",
+            "text": "The client has insufficient account credit to cover that transaction."
+        },
+        {
+            "slug": "new_transaction",
+            "text": "New Transaction"
+        },
+        {
+            "slug": "transaction_type",
+            "text": "Transaction Type"
+        },
+        {
+            "slug": "transaction_added",
+            "text": "The transaction record was successfully added."
+        },
+        {
+            "slug": "debit",
+            "text": "Debit"
+        },
+        {
+            "slug": "services",
+            "text": "Services"
+        },
+        {
+            "slug": "all_services",
+            "text": "All Services"
+        },
+        {
+            "slug": "service",
+            "text": "Service"
+        },
+        {
+            "slug": "authentication_required",
+            "text": "Authentication Required"
+        },
+        {
+            "slug": "retrieve_data",
+            "text": "Retrieve Data"
+        },
+        {
+            "slug": "encrypted",
+            "text": "Encrypted"
+        },
+        {
+            "slug": "decrypted_data",
+            "text": "Decrypted Data"
+        },
+        {
+            "slug": "product_details",
+            "text": "Product Details"
+        },
+        {
+            "slug": "manage_service",
+            "text": "Manage Service"
+        },
+        {
+            "slug": "first_payment",
+            "text": "First Payment"
+        },
+        {
+            "slug": "recurring_payment",
+            "text": "Recurring Payment"
+        },
+        {
+            "slug": "account_usage",
+            "text": "Account Usage"
+        },
+        {
+            "slug": "diskspace_mb",
+            "text": "Diskspace (MB)"
+        },
+        {
+            "slug": "bandwidth_mb",
+            "text": "Bandwidth (MB)"
+        },
+        {
+            "slug": "server",
+            "text": "Server"
+        },
+        {
+            "slug": "main_ip",
+            "text": "Main IP"
+        },
+        {
+            "slug": "additional_ips",
+            "text": "Additional IP's"
+        },
+        {
+            "slug": "username",
+            "text": "Username"
+        },
+        {
+            "slug": "domain",
+            "text": "Domain"
+        },
+        {
+            "slug": "system_passphrase",
+            "text": "System Passphrase"
+        },
+        {
+            "slug": "your_password",
+            "text": "Your Password"
+        },
+        {
+            "slug": "date_registered",
+            "text": "Date Registered"
+        },
+        {
+            "slug": "billing_period",
+            "text": "Billing Period"
+        },
+        {
+            "slug": "next_due_date",
+            "text": "Next Due Date"
+        },
+        {
+            "slug": "promotion_code",
+            "text": "Promotion Code"
+        },
+        {
+            "slug": "suspension_notice",
+            "text": "Suspension Notice"
+        },
+        {
+            "slug": "payment_gateway",
+            "text": "Payment Gateway"
+        },
+        {
+            "slug": "registrar",
+            "text": "Registrar"
+        },
+        {
+            "slug": "expiry_date",
+            "text": "Expiry Date"
+        },
+        {
+            "slug": "registrar_sync",
+            "text": "Registrar Sync"
+        },
+        {
+            "slug": "registrar_module",
+            "text": "Registrar Module"
+        },
+        {
+            "slug": "registrar_lock",
+            "text": "Registrar Lock"
+        },
+        {
+            "slug": "recurring_discount",
+            "text": "Recurring Discount"
+        },
+        {
+            "slug": "overview",
+            "text": "Overview"
+        },
+        {
+            "slug": "nameservers",
+            "text": "Name Servers"
+        },
+        {
+            "slug": "domain_details",
+            "text": "Domain Details"
+        },
+        {
+            "slug": "service_details",
+            "text": "Service Details"
+        },
+        {
+            "slug": "admin_notes",
+            "text": "Admin Notes"
+        },
+        {
+            "slug": "auto_renew",
+            "text": "Auto Renew"
+        },
+        {
+            "slug": "enable_registrar_sync",
+            "text": "Enable Registrar Sync"
+        },
+        {
+            "slug": "hosting_service_details",
+            "text": "Hosting Service Details"
+        },
+        {
+            "slug": "ip_addresses",
+            "text": "IP Addresses"
+        },
+        {
+            "slug": "suspended",
+            "text": "Suspended"
+        },
+        {
+            "slug": "terminated",
+            "text": "Terminated"
+        },
+        {
+            "slug": "disable_autosuspend",
+            "text": "Disable Auto-Suspend"
+        },
+        {
+            "slug": "next_renewal",
+            "text": "Next Renewal Date"
+        },
+        {
+            "slug": "next_invoice",
+            "text": "Next Invoice Date"
+        },
+        {
+            "slug": "validation.date_format",
+            "text": "The {field} field did not contain a valid date. Please ensure you use the 'YYYY-MM-DD' format. "
+        },
+        {
+            "slug": "service_updated_successfully",
+            "text": "The service details were successfully updated."
+        },
+        {
+            "slug": "gateway_subscription_data",
+            "text": "Gateway Subscription Data"
+        },
+        {
+            "slug": "assign_an_ip_address",
+            "text": "Assign an IP Address"
+        },
+        {
+            "slug": "available_ip_addresses",
+            "text": "Available IP Addresses"
+        },
+        {
+            "slug": "assigned_ip_addresses",
+            "text": "Assigned IP Addresses"
+        },
+        {
+            "slug": "ip_address",
+            "text": "IP Address"
+        },
+        {
+            "slug": "unassign",
+            "text": "Unassign"
+        },
+        {
+            "slug": "service_ip_addresses_updated",
+            "text": "The service's assigned IP addresses were updated successfully."
+        },
+        {
+            "slug": "error_removing_ip_address",
+            "text": "An error occurred when removing the ip address(es)."
+        },
+        {
+            "slug": "error_adding_ip_address",
+            "text": "An error occurred when trying to add the IP Address."
+        },
+        {
+            "slug": "no_ip_addresses_assigned",
+            "text": "No IP Addresses have been assigned to this service."
+        },
+        {
+            "slug": "module_error",
+            "text": "An error occurred when communicating with the service module."
+        },
+        {
+            "slug": "addon_deleted",
+            "text": "The addon was successfully deleted."
+        },
+        {
+            "slug": "product_addon_added_to_service",
+            "text": "The selected product addon was successfully added to this service."
+        },
+        {
+            "slug": "error_adding_product_addon_purchase",
+            "text": "There was a problem adding the selected product addon to this service."
+        },
+        {
+            "slug": "product_addon_updated",
+            "text": "The product addon for this service was successfully updated."
+        },
+        {
+            "slug": "error_updating_product_addon",
+            "text": "There was a problem updating the product addon for this service."
+        },
+        {
+            "slug": "product_addon_deleted",
+            "text": "The selected product addon was successfully deleted from this service."
+        },
+        {
+            "slug": "error_deleting_product_addon",
+            "text": "There was a problem deleting the selected product addon from this service."
+        },
+        {
+            "slug": "existing_addons",
+            "text": "Existing Addons"
+        },
+        {
+            "slug": "add_addon",
+            "text": "Add Addon"
+        },
+        {
+            "slug": "addon",
+            "text": "Addon"
+        },
+        {
+            "slug": "delete_product_addon",
+            "text": "Delete Product Addon"
+        },
+        {
+            "slug": "manage_product_addon",
+            "text": "Manage Product Addon"
+        },
+        {
+            "slug": "no_product_addons_purchased",
+            "text": "No Product Addons Purchased"
+        },
+        {
+            "slug": "domain_contacts",
+            "text": "Domain Contacts"
+        },
+        {
+            "slug": "whois_privacy",
+            "text": "WHOIS Privacy"
+        },
+        {
+            "slug": "registrant_contact",
+            "text": "Registrant Contact"
+        },
+        {
+            "slug": "administrative_contact",
+            "text": "Administrative Contact"
+        },
+        {
+            "slug": "technical_contact",
+            "text": "Technical Contact"
+        },
+        {
+            "slug": "billing_contact",
+            "text": "Billing Contact"
+        },
+        {
+            "slug": "manage_name_servers",
+            "text": "Manage Name Servers"
+        },
+        {
+            "slug": "manage_child_name_servers",
+            "text": "Manage Child Name Servers"
+        },
+        {
+            "slug": "manage_theft_protection",
+            "text": "Manage Theft Protection"
+        },
+        {
+            "slug": "update_contact_details",
+            "text": "Update Contact Details"
+        },
+        {
+            "slug": "lock_suspend_domain",
+            "text": "Lock\/Suspend Domain"
+        },
+        {
+            "slug": "delete_domain",
+            "text": "Delete Domain"
+        },
+        {
+            "slug": "module_returned_error",
+            "text": "The module returned the following error: "
+        },
+        {
+            "slug": "domain_registration_successful",
+            "text": "The domain registration request was successfully submitted to the registry."
+        },
+        {
+            "slug": "register_domain",
+            "text": "Register Domain"
+        },
+        {
+            "slug": "renew_domain",
+            "text": "Renew Domain"
+        },
+        {
+            "slug": "transfer_domain",
+            "text": "Transfer Domain"
+        },
+        {
+            "slug": "invalid_nameservers_entered",
+            "text": "Invalid name server address(es) entered. Please provide at least two valid name servers."
+        },
+        {
+            "slug": "nameservers_successfully_updated",
+            "text": "The name servers were successfully updated."
+        },
+        {
+            "slug": "registry_response",
+            "text": "Registry Response:"
+        },
+        {
+            "slug": "domain_renewal_successful",
+            "text": "The domain was successfully renewed."
+        },
+        {
+            "slug": "year",
+            "text": "Year"
+        },
+        {
+            "slug": "years",
+            "text": "Years"
+        },
+        {
+            "slug": "renewal_period",
+            "text": "Renewal Period"
+        },
+        {
+            "slug": "domain_transfer_successful",
+            "text": "The domain transfer request was successfully sent. The current owner of the domain will now receive an email asking them to confirm the transfer. They may also be asked to enter the domain transfer code. The previous registrar will then process the transfer request. Once this is completed, you'll be able to manage the domain from this page."
+        },
+        {
+            "slug": "theft_protection",
+            "text": "Theft Protection"
+        },
+        {
+            "slug": "locked_by",
+            "text": "Locked by"
+        },
+        {
+            "slug": "transfer_code_notice",
+            "text": "Remember to unlock the domain at its current registrar before attempting to transfer it. Please also note that it is not possible to transfer domains that were registered, renewed or transferred within the last 60 days."
+        },
+        {
+            "slug": "domain_transfer_code",
+            "text": "Domain Transfer Code"
+        },
+        {
+            "slug": "enable",
+            "text": "Enable"
+        },
+        {
+            "slug": "disable",
+            "text": "Disable"
+        },
+        {
+            "slug": "reason",
+            "text": "Reason"
+        },
+        {
+            "slug": "service_status",
+            "text": "Service Status"
+        },
+        {
+            "slug": "delete_local_record",
+            "text": "Delete Local Record"
+        },
+        {
+            "slug": "delete_domain_info",
+            "text": "Saving this page will delete the domain record from your registrar and make the domain immediately inactive. This can not be reversed."
+        },
+        {
+            "slug": "delete_domain_local_info",
+            "text": "This will permanently delete the local domain and purchase record."
+        },
+        {
+            "slug": "enabled",
+            "text": "Enabled"
+        },
+        {
+            "slug": "disabled",
+            "text": "Disabled"
+        },
+        {
+            "slug": "additional_details",
+            "text": "Additional Details"
+        },
+        {
+            "slug": "registration_period",
+            "text": "Registration Period"
+        },
+        {
+            "slug": "emails",
+            "text": "Emails"
+        },
+        {
+            "slug": "cc_ach_accounts",
+            "text": "CC\/ACH Accounts"
+        },
+        {
+            "slug": "client_no_payment_accounts",
+            "text": "The client has no payment accounts on record."
+        },
+        {
+            "slug": "credit_card",
+            "text": "Credit Card"
+        },
+        {
+            "slug": "automated_clearing_house",
+            "text": "Automated Clearing House"
+        },
+        {
+            "slug": "new_cc",
+            "text": "New CC"
+        },
+        {
+            "slug": "new_ach",
+            "text": "New ACH"
+        },
+        {
+            "slug": "last4",
+            "text": "Last 4 Digits"
+        },
+        {
+            "slug": "default_cc",
+            "text": "Default CC"
+        },
+        {
+            "slug": "default_ach",
+            "text": "Default ACH"
+        },
+        {
+            "slug": "card_number",
+            "text": "Card Number"
+        },
+        {
+            "slug": "decrypt_card_number",
+            "text": "Decrypt Card Number"
+        },
+        {
+            "slug": "default_method_for_payments",
+            "text": "Default method for automated payments"
+        },
+        {
+            "slug": "store_account_offsite",
+            "text": "Store account data at merchant gateway if supported (recommended)."
+        },
+        {
+            "slug": "edit_cc",
+            "text": "Edit Credit Card"
+        },
+        {
+            "slug": "any",
+            "text": "Any"
+        },
+        {
+            "slug": "merchant_gateway",
+            "text": "Merchant Gateway"
+        },
+        {
+            "slug": "credit_card_successfully_saved",
+            "text": "The credit card details were successfully saved."
+        },
+        {
+            "slug": "error_saving_credit_card",
+            "text": "There was a problem saving the credit card. Please verify all information was complete and correct, and try again."
+        },
+        {
+            "slug": "credit_card_successfully_deleted",
+            "text": "The credit card was successfully deleted."
+        },
+        {
+            "slug": "error_deleting_credit_card",
+            "text": "There was a problem deleting the credit card. Please try again."
+        },
+        {
+            "slug": "scaffolding_save_success",
+            "text": "The data was saved successfully."
+        },
+        {
+            "slug": "scaffolding_save_error",
+            "text": "There was an error saving your data, please try again."
+        },
+        {
+            "slug": "scaffolding_delete_notallowed",
+            "text": "Deleting is not allowed on this section."
+        },
+        {
+            "slug": "scaffolding_delete_error",
+            "text": "There was an error deleting the requested item, please try again."
+        },
+        {
+            "slug": "scaffolding_delete_success",
+            "text": "Item has been deleted successfully."
+        },
+        {
+            "slug": "validation.integer",
+            "text": "The {field} fied did not contain a valid integer value."
+        },
+        {
+            "slug": "gateway_does_not_support_offsite_storage",
+            "text": "The selected gateway does not support off-site storage of account details."
+        },
+        {
+            "slug": "ach_account_successfully_deleted",
+            "text": "The ACH account was successfully deleted."
+        },
+        {
+            "slug": "decrypt_account_number",
+            "text": "Decrypt Account Number"
+        },
+        {
+            "slug": "decrypt_error",
+            "text": "There was a problem decrypting the data. This may be caused by either an invalid decryption passphrase being entered, or the requested data does not exist. Please reload the current page to try again."
+        },
+        {
+            "slug": "edit_ach",
+            "text": "Edit ACH"
+        },
+        {
+            "slug": "account_type",
+            "text": "Account Type"
+        },
+        {
+            "slug": "account_number",
+            "text": "Account Number"
+        },
+        {
+            "slug": "routing_number",
+            "text": "Routing Number"
+        },
+        {
+            "slug": "checking",
+            "text": "Checking"
+        },
+        {
+            "slug": "savings",
+            "text": "Savings"
+        },
+        {
+            "slug": "all_decrypt_actions_are_logged",
+            "text": "Note: All decrypt actions are logged."
+        },
+        {
+            "slug": "user",
+            "text": "User"
+        },
+        {
+            "slug": "staff",
+            "text": "Staff"
+        },
+        {
+            "slug": "action_type",
+            "text": "Action Type"
+        },
+        {
+            "slug": "action_logs",
+            "text": "Action Logs"
+        },
+        {
+            "slug": "date",
+            "text": "Date"
+        },
+        {
+            "slug": "no_results_found",
+            "text": "No Results Found"
+        },
+        {
+            "slug": "currency_management",
+            "text": "Currency Management"
+        },
+        {
+            "slug": "currency_add",
+            "text": "Add Currency"
+        },
+        {
+            "slug": "currency_edit",
+            "text": "Edit Currency"
+        },
+        {
+            "slug": "currency_code",
+            "text": "Currency Code"
+        },
+        {
+            "slug": "prefix",
+            "text": "Prefix"
+        },
+        {
+            "slug": "decimal_point",
+            "text": "Decimal Point"
+        },
+        {
+            "slug": "thousand_separator",
+            "text": "Thousand Separator"
+        },
+        {
+            "slug": "conversion_rate",
+            "text": "Conversion Rate"
+        },
+        {
+            "slug": "decimals",
+            "text": "Decimals"
+        },
+        {
+            "slug": "suffix",
+            "text": "Suffix"
+        },
+        {
+            "slug": "auto_update",
+            "text": "Auto Update"
+        },
+        {
+            "slug": "created_at",
+            "text": "Created On"
+        },
+        {
+            "slug": "updated_at",
+            "text": "Updated On"
+        },
+        {
+            "slug": "validation.regex",
+            "text": "The {field} field contained an invalid value."
+        },
+        {
+            "slug": "custom_field_management",
+            "text": "Custom Field Management"
+        },
+        {
+            "slug": "client_custom_fields",
+            "text": "Client Custom Fields"
+        },
+        {
+            "slug": "custom_field_group_saved_successfully",
+            "text": "The custom field group was saved successfully."
+        },
+        {
+            "slug": "error_saving_custom_field_group",
+            "text": "There was an error saving the custom field group. Please try again."
+        },
+        {
+            "slug": "new_custom_field",
+            "text": "New Custom Field"
+        },
+        {
+            "slug": "custom_field_group_details",
+            "text": "Custom Field Group Details"
+        },
+        {
+            "slug": "slug",
+            "text": "Slug"
+        },
+        {
+            "slug": "custom_fields",
+            "text": "Custom Fields"
+        },
+        {
+            "slug": "title",
+            "text": "Title"
+        },
+        {
+            "slug": "field_type",
+            "text": "Field Type"
+        },
+        {
+            "slug": "fields_editable_by_staff",
+            "text": "Fields Editable By Staff Members"
+        },
+        {
+            "slug": "new_custom_field_group",
+            "text": "New Custom Field Group"
+        },
+        {
+            "slug": "custom_field_group_deleted_successfully",
+            "text": "The custom field group was successfully deleted."
+        },
+        {
+            "slug": "error_deleting_custom_field_group",
+            "text": "There was an error deleting the custom field group. Please try again."
+        },
+        {
+            "slug": "field_slug",
+            "text": "Unique Field Slug"
+        },
+        {
+            "slug": "field_title",
+            "text": "Field Title"
+        },
+        {
+            "slug": "field_title_help_text",
+            "text": "Note: This can be a language phrase."
+        },
+        {
+            "slug": "field_help_text",
+            "text": "Field Help Text"
+        },
+        {
+            "slug": "field_placeholder",
+            "text": "Field Placeholder"
+        },
+        {
+            "slug": "field_value_options",
+            "text": "Value Options"
+        },
+        {
+            "slug": "field_value_options_help_text",
+            "text": "Populate this with a JSON array of options  if you are using a select field. The option names can contain language phrases."
+        },
+        {
+            "slug": "field_is_editable",
+            "text": "Make the field user-editable"
+        },
+        {
+            "slug": "field_is_staff_only",
+            "text": "Visible to staff only"
+        },
+        {
+            "slug": "field_custom_regex",
+            "text": "Custom Regex Validation"
+        },
+        {
+            "slug": "field_sort",
+            "text": "Field Sort Order"
+        },
+        {
+            "slug": "field_validation_rules_help_text",
+            "text": "We support a range of validation options on fields. Please see the WHSuite custom field documentation for full details."
+        },
+        {
+            "slug": "field_validation_rules",
+            "text": "Field Validation Rules"
+        },
+        {
+            "slug": "custom_field_deleted_successfully",
+            "text": "Custom field deleted successfully."
+        },
+        {
+            "slug": "error_deleting_custom_field",
+            "text": "There was an error deleting the custom field. Please try again."
+        },
+        {
+            "slug": "edit_custom_field",
+            "text": "Edit Custom Field"
+        },
+        {
+            "slug": "text",
+            "text": "Text"
+        },
+        {
+            "slug": "textarea",
+            "text": "TextArea"
+        },
+        {
+            "slug": "select",
+            "text": "Select"
+        },
+        {
+            "slug": "checkbox",
+            "text": "Checkbox"
+        },
+        {
+            "slug": "wysiwyg",
+            "text": "WYSIWYG Editor"
+        },
+        {
+            "slug": "server_management",
+            "text": "Server Management"
+        },
+        {
+            "slug": "manage_server",
+            "text": "Manage Server"
+        },
+        {
+            "slug": "server_group",
+            "text": "Server Group"
+        },
+        {
+            "slug": "manage_group",
+            "text": "Manage Group"
+        },
+        {
+            "slug": "server_module",
+            "text": "Server Module"
+        },
+        {
+            "slug": "auto_fill_servers",
+            "text": "Auto-fill servers"
+        },
+        {
+            "slug": "auto_fill_servers_help_text",
+            "text": "If enabled, accounts will automatically be setup on the default server until it's full, and will then be automatically distributed across other servers in the group."
+        },
+        {
+            "slug": "server_module_help_text",
+            "text": "The server module assigned here will be used for all servers within this group."
+        },
+        {
+            "slug": "servergroup_add",
+            "text": "Add Server Group"
+        },
+        {
+            "slug": "hostname",
+            "text": "Hostname"
+        },
+        {
+            "slug": "location",
+            "text": "Location"
+        },
+        {
+            "slug": "accounts",
+            "text": "Accounts"
+        },
+        {
+            "slug": "server_details",
+            "text": "Server Details"
+        },
+        {
+            "slug": "server_module_details",
+            "text": "Server Module Details"
+        },
+        {
+            "slug": "hidden",
+            "text": "Hidden"
+        },
+        {
+            "slug": "update_server_group",
+            "text": "Update Server Group"
+        },
+        {
+            "slug": "api_key",
+            "text": "API Key"
+        },
+        {
+            "slug": "maximum_accounts",
+            "text": "Maximum Accounts"
+        },
+        {
+            "slug": "status_url",
+            "text": "Status URL"
+        },
+        {
+            "slug": "status_url_help_text",
+            "text": "If you use a 3rd party public server monitoring service, you can enter the URL for this server here and a link will be provided in your client area for customers on this server."
+        },
+        {
+            "slug": "use_ssl_connection",
+            "text": "Use SSL Connection (recommended)"
+        },
+        {
+            "slug": "deployment_priority",
+            "text": "Deployment Priority"
+        },
+        {
+            "slug": "deployment_priority_help_text",
+            "text": "Deployment Priority lets you set a priority level for each server. A priority of 1 is the highest. If you have thousands of servers you can prioritize accounts to fill each server before moving onto the next. Zero is the lowest priority level."
+        },
+        {
+            "slug": "server_connection_failed",
+            "text": "There was a problem establishing a connection to the server. Please check the connection details and try again."
+        },
+        {
+            "slug": "add_ip_addresses",
+            "text": "Add IP Addresses"
+        },
+        {
+            "slug": "starting_ip",
+            "text": "Starting IP"
+        },
+        {
+            "slug": "ending_ip",
+            "text": "Ending IP"
+        },
+        {
+            "slug": "account",
+            "text": "Account"
+        },
+        {
+            "slug": "delete_selected",
+            "text": "Delete Selected"
+        },
+        {
+            "slug": "server_ips_updated",
+            "text": "The Server IP Addresses were successfully updated."
+        },
+        {
+            "slug": "invalid_ip_addresses_entered",
+            "text": "The IP Address(es) entered were invalid. Please try again."
+        },
+        {
+            "slug": "ip_address_already_exists",
+            "text": "The IP Address(es) entered already exist on the system. Please try again."
+        },
+        {
+            "slug": "error_saving_ip_address",
+            "text": "There was an error saving the IP Address(es). Please try again."
+        },
+        {
+            "slug": "server_add",
+            "text": "Add Server"
+        },
+        {
+            "slug": "default_server",
+            "text": "Default Server"
+        },
+        {
+            "slug": "default_server_help_text",
+            "text": "The default server will be used as the highest priority when setting up accounts. Once the default server reaches it's account limit, WHSuite will automatically start assigning accounts to other servers based on their Deployment Priority level."
+        },
+        {
+            "slug": "unlimited",
+            "text": "Unlimited"
+        },
+        {
+            "slug": "server_nameservers_saved",
+            "text": "The server nameservers were successfully saved."
+        },
+        {
+            "slug": "error_saving_server_nameservers",
+            "text": "There was an error saving the server nameservers. Please try again."
+        },
+        {
+            "slug": "validation.hostname",
+            "text": "The {field} field was not a valid hostname."
+        },
+        {
+            "slug": "add_nameserver",
+            "text": "Add Nameserver"
+        },
+        {
+            "slug": "leave_blank_to_keep_existing_value",
+            "text": "Leave blank to keep existing value."
+        },
+        {
+            "slug": "change_api_key",
+            "text": "Change API Key (Optional)"
+        },
+        {
+            "slug": "server_delete",
+            "text": "Delete Server"
+        },
+        {
+            "slug": "product_management",
+            "text": "Product Management"
+        },
+        {
+            "slug": "new_product_group",
+            "text": "New Product Group"
+        },
+        {
+            "slug": "new_product",
+            "text": "New Product"
+        },
+        {
+            "slug": "manage_product",
+            "text": "Manage Product"
+        },
+        {
+            "slug": "manage_product_types",
+            "text": "Manage Product Types"
+        },
+        {
+            "slug": "product_group_updated",
+            "text": "The product group was successfully updated"
+        },
+        {
+            "slug": "update_product_group",
+            "text": "Update Product Group"
+        },
+        {
+            "slug": "sort",
+            "text": "Sort Order"
+        },
+        {
+            "slug": "is_visible",
+            "text": "Visible"
+        },
+        {
+            "slug": "product_group",
+            "text": "Product Group"
+        },
+        {
+            "slug": "error_updating_product_group",
+            "text": "There was an error updating the product group. Please try again."
+        },
+        {
+            "slug": "add_product_group",
+            "text": "Add Product Group"
+        },
+        {
+            "slug": "product_group_added",
+            "text": "The product group was successfully added."
+        },
+        {
+            "slug": "error_adding_product_group",
+            "text": "There was an error adding the product group. Please try again."
+        },
+        {
+            "slug": "delete_product_group",
+            "text": "Delete Product Group"
+        },
+        {
+            "slug": "product_group_successfully_deleted",
+            "text": "The product group was successfully deleted."
+        },
+        {
+            "slug": "error_deleting_product_group",
+            "text": "There was an error deleting the product group. Please try again."
+        },
+        {
+            "slug": "new_product_step_one",
+            "text": "New Product: Step One"
+        },
+        {
+            "slug": "basic_details",
+            "text": "Basic Details"
+        },
+        {
+            "slug": "product_type",
+            "text": "Product Type"
+        },
+        {
+            "slug": "setup_product",
+            "text": "Setup Product"
+        },
+        {
+            "slug": "manually",
+            "text": "Manually"
+        },
+        {
+            "slug": "on_payment_confirmation",
+            "text": "On Payment Confirmation"
+        },
+        {
+            "slug": "on_order_creation",
+            "text": "On Order Creation (before payment)"
+        },
+        {
+            "slug": "email_template",
+            "text": "Email Template"
+        },
+        {
+            "slug": "product_email_template_help_text",
+            "text": "This will be the email sent to the client once their order has been successfully created, and can include product purchase details."
+        },
+        {
+            "slug": "stock_level",
+            "text": "Stock Level"
+        },
+        {
+            "slug": "stock_level_help_text",
+            "text": "Optional. Set to -1 to disable stock control."
+        },
+        {
+            "slug": "billing_details",
+            "text": "Billing Details"
+        },
+        {
+            "slug": "auto_suspend_days",
+            "text": "Auto-Suspend Days"
+        },
+        {
+            "slug": "auto_suspend_days_help_text",
+            "text": "Set how many days after being overdue to suspend accounts."
+        },
+        {
+            "slug": "auto_suspend_email_template",
+            "text": "Auto-Suspend Email Template"
+        },
+        {
+            "slug": "auto_terminate_days",
+            "text": "Auto-Terminate Days"
+        },
+        {
+            "slug": "auto_terminate_days_help_text",
+            "text": "Set how many days after being overdue to terminate accounts."
+        },
+        {
+            "slug": "auto_terminate_email_template",
+            "text": "Auto-Terminate Email Template"
+        },
+        {
+            "slug": "apply_tax_where_applicable",
+            "text": "Apply Tax (where applicable)"
+        },
+        {
+            "slug": "upgrade_options",
+            "text": "Upgrade Options"
+        },
+        {
+            "slug": "product_upgrades",
+            "text": "Product Upgrades"
+        },
+        {
+            "slug": "affiliate_options",
+            "text": "Affiliate Options"
+        },
+        {
+            "slug": "enable_affiliates",
+            "text": "Enable Affiliates"
+        },
+        {
+            "slug": "recurring_credit",
+            "text": "Recurring Credit"
+        },
+        {
+            "slug": "upgrade_email_template",
+            "text": "Upgrade Email Template"
+        },
+        {
+            "slug": "allow_upgrades",
+            "text": "Allow Upgrades"
+        },
+        {
+            "slug": "affiliate_amount",
+            "text": "Affiliate Payout Amount (%)"
+        },
+        {
+            "slug": "next_step",
+            "text": "Next Step"
+        },
+        {
+            "slug": "domainextension_management",
+            "text": "Domain Extension Management"
+        },
+        {
+            "slug": "domainextension_add",
+            "text": "Add Domain Extension"
+        },
+        {
+            "slug": "extension",
+            "text": "Extension"
+        },
+        {
+            "slug": "min_years",
+            "text": "Minimum Years"
+        },
+        {
+            "slug": "max_years",
+            "text": "Maximum Years"
+        },
+        {
+            "slug": "automatic_registration",
+            "text": "Automatic Registration?"
+        },
+        {
+            "slug": "has_eppcode",
+            "text": "Has EPP Code?"
+        },
+        {
+            "slug": "cant_delete_assigned_product_addons",
+            "text": "The product addon you selected can't be deleted as it's been purchased. Instead you should unassign it from all products."
+        },
+        {
+            "slug": "productaddon_management",
+            "text": "Product Addon Management"
+        },
+        {
+            "slug": "productaddon_add",
+            "text": "Add Product Addon"
+        },
+        {
+            "slug": "productaddon_edit",
+            "text": "Edit Product Addon"
+        },
+        {
+            "slug": "make_product_addon_free",
+            "text": "Make Product Addon Free"
+        },
+        {
+            "slug": "pricing",
+            "text": "Pricing"
+        },
+        {
+            "slug": "price",
+            "text": "Price"
+        },
+        {
+            "slug": "addon_slug",
+            "text": "Addon Slug"
+        },
+        {
+            "slug": "addon_value",
+            "text": "Addon Value"
+        },
+        {
+            "slug": "addon_value_help_text",
+            "text": "If this addon ties into a 3rd party server  or registrar addon, it's possible to use a slug and value which can be used to automatically setup this addon. See the full WHSuite documentation for more details."
+        },
+        {
+            "slug": "hosting_details",
+            "text": "Hosting Details"
+        },
+        {
+            "slug": "package",
+            "text": "Package"
+        },
+        {
+            "slug": "is_reseller",
+            "text": "Is Reseller"
+        },
+        {
+            "slug": "allow_ips",
+            "text": "Allow Dedicated IP's"
+        },
+        {
+            "slug": "included_ips",
+            "text": "Included Dedicated IP's"
+        },
+        {
+            "slug": "charge_bandwidth_overages",
+            "text": "Charge for Bandwidth Overages"
+        },
+        {
+            "slug": "charge_disk_overages",
+            "text": "Charge for Diskspace Overages"
+        },
+        {
+            "slug": "domain_type",
+            "text": "Domain Type"
+        },
+        {
+            "slug": "enter_own_domain_name",
+            "text": "Enter Own Domain Name"
+        },
+        {
+            "slug": "no_domain_needed",
+            "text": "No Domain Needed"
+        },
+        {
+            "slug": "enter_hostname",
+            "text": "Enter Hostname (e.g vps01.example.org)"
+        },
+        {
+            "slug": "domain_type_help_text",
+            "text": "The domain type can be used to specify if you want customers to enter an existing domain name (e.g for Shared\/Reseller hosting), no domain (e.g for VoIP) or a hostname (e.g for a VPS\/Server)."
+        },
+        {
+            "slug": "pricing_details",
+            "text": "Pricing Details"
+        },
+        {
+            "slug": "product_pricing_info",
+            "text": "To set a product to free, use the 'Product  is free' option on the billing settings. For any billing periods or currencies you don't want to allow, leave their fields below blank."
+        },
+        {
+            "slug": "setup",
+            "text": "Setup"
+        },
+        {
+            "slug": "bandwidth_overage_fee",
+            "text": "Bandwidth Overage Fee \/GB"
+        },
+        {
+            "slug": "diskspace_overage_fee",
+            "text": "Diskspace Overage Fee \/MB"
+        },
+        {
+            "slug": "make_product_free",
+            "text": "Make Product Free"
+        },
+        {
+            "slug": "domain_extension",
+            "text": "Domain Extension"
+        },
+        {
+            "slug": "registration_price_year",
+            "text": "Registration Price \/Year"
+        },
+        {
+            "slug": "renewal_price_year",
+            "text": "Renewal Price \/Year"
+        },
+        {
+            "slug": "transfer_price_year",
+            "text": "Transfer Price \/Year"
+        },
+        {
+            "slug": "restore_price_year",
+            "text": "Restore Price \/Year"
+        },
+        {
+            "slug": "domain_pricing_help",
+            "text": "If the pricing for a year is left blank, the domain price will be worked out based on the lowest supported number of years. If no pricing is proivded at all, registration in the selected currency will be disabled."
+        },
+        {
+            "slug": "product_deleted",
+            "text": "The product was successfully deleted."
+        },
+        {
+            "slug": "delete_product",
+            "text": "Delete Product"
+        },
+        {
+            "slug": "activate_addon",
+            "text": "Activate Addon"
+        },
+        {
+            "slug": "add_note",
+            "text": "Add Note"
+        },
+        {
+            "slug": "edit_note",
+            "text": "Edit Note"
+        },
+        {
+            "slug": "delete_note",
+            "text": "Delete Note"
+        },
+        {
+            "slug": "rate",
+            "text": "Rate"
+        },
+        {
+            "slug": "level",
+            "text": "Level"
+        },
+        {
+            "slug": "taxlevel_add",
+            "text": "Add Tax Level"
+        },
+        {
+            "slug": "taxlevel_management",
+            "text": "Tax Level Management"
+        },
+        {
+            "slug": "system_settings",
+            "text": "System Settings"
+        },
+        {
+            "slug": "general_settings",
+            "text": "General Settings"
+        },
+        {
+            "slug": "billing_settings",
+            "text": "Billing Settings"
+        },
+        {
+            "slug": "mail_settings",
+            "text": "Mail Settings"
+        },
+        {
+            "slug": "localization_settings",
+            "text": "Localization Settings"
+        },
+        {
+            "slug": "development_settings",
+            "text": "Development Settings"
+        },
+        {
+            "slug": "emailtemplate_management",
+            "text": "Email Template Management"
+        },
+        {
+            "slug": "emailtemplate_edit",
+            "text": "Edit Email Template"
+        },
+        {
+            "slug": "unable_to_capture_payment",
+            "text": "Unable to capture payment. This is likely due to the client not having a valid Credit\/Debit card or ACH account on file."
+        },
+        {
+            "slug": "payment_successfully_captured",
+            "text": "The payment was successfully captured."
+        },
+        {
+            "slug": "capture_payment",
+            "text": "Capture Payment"
+        },
+        {
+            "slug": "cc_payment_via_gateway",
+            "text": "Credit\/Debit card payment via gateway "
+        },
+        {
+            "slug": "ach_payment_via_gateway",
+            "text": "ACH payment via gateway "
+        },
+        {
+            "slug": "billingperiod_management",
+            "text": "Billing Period Management"
+        },
+        {
+            "slug": "billingperiod_add",
+            "text": "Add Billing Period"
+        },
+        {
+            "slug": "days",
+            "text": "Days"
+        },
+        {
+            "slug": "billingperiod_edit",
+            "text": "Edit Billing Period"
+        },
+        {
+            "slug": "welcome_back",
+            "text": "Welcome back"
+        },
+        {
+            "slug": "active_services",
+            "text": "Active Services"
+        },
+        {
+            "slug": "account_details",
+            "text": "Account Details"
+        },
+        {
+            "slug": "announcements",
+            "text": "Announcements"
+        },
+        {
+            "slug": "view_all",
+            "text": "View All"
+        },
+        {
+            "slug": "manage_billing_details",
+            "text": "Manage Billing Details"
+        },
+        {
+            "slug": "my_services",
+            "text": "My Services"
+        },
+        {
+            "slug": "my_invoices",
+            "text": "My Invoices"
+        },
+        {
+            "slug": "payment_history",
+            "text": "Payment History"
+        },
+        {
+            "slug": "payment_accounts",
+            "text": "Payment Accounts"
+        },
+        {
+            "slug": "card_can_be_disabled",
+            "text": "You can disable a credit card if it is either not yet active, or if you wish to keep it on file but use another card for automated payments."
+        },
+        {
+            "slug": "ach_can_be_disabled",
+            "text": "You can disable an ACH account if it is either not yet active, or if you wish to keep it on file but use another account for automated payments."
+        },
+        {
+            "slug": "card_can_be_default",
+            "text": "You can set this card to be the default method when taking automated payments."
+        },
+        {
+            "slug": "ach_can_be_default",
+            "text": "You can set this account to be the default method when taking automated payments."
+        },
+        {
+            "slug": "customer_type",
+            "text": "Customer Type"
+        },
+        {
+            "slug": "individual",
+            "text": "Individual"
+        },
+        {
+            "slug": "business",
+            "text": "Business"
+        },
+        {
+            "slug": "add_cc",
+            "text": "Add Credit\/Debit Card"
+        },
+        {
+            "slug": "add_ach",
+            "text": "Add ACH Account"
+        },
+        {
+            "slug": "credit_cards",
+            "text": "Credit\/Debit Cards"
+        },
+        {
+            "slug": "ach_accounts",
+            "text": "ACH Accounts"
+        },
+        {
+            "slug": "gateways",
+            "text": "Gateways"
+        },
+        {
+            "slug": "home",
+            "text": "Home"
+        },
+        {
+            "slug": "posted",
+            "text": "Posted:"
+        },
+        {
+            "slug": "announcement",
+            "text": "Announcement"
+        },
+        {
+            "slug": "remember_me",
+            "text": "Remember Me"
+        },
+        {
+            "slug": "client_login",
+            "text": "Client Login"
+        },
+        {
+            "slug": "reset_password",
+            "text": "Reset Password"
+        },
+        {
+            "slug": "create_account",
+            "text": "Create Account"
+        },
+        {
+            "slug": "login",
+            "text": "Login"
+        },
+        {
+            "slug": "shopping_cart",
+            "text": "Shopping Cart"
+        },
+        {
+            "slug": "checkout",
+            "text": "Checkout"
+        },
+        {
+            "slug": "tax",
+            "text": "Tax"
+        },
+        {
+            "slug": "order_now",
+            "text": "Order Now"
+        },
+        {
+            "slug": "addon_items",
+            "text": "Addon Items"
+        },
+        {
+            "slug": "add_to_cart",
+            "text": "Add to Cart"
+        },
+        {
+            "slug": "order",
+            "text": "Order"
+        },
+        {
+            "slug": "setup_fee",
+            "text": "Setup Fee"
+        },
+        {
+            "slug": "domain_placeholder",
+            "text": "mydomain.com"
+        },
+        {
+            "slug": "registered",
+            "text": "Registered"
+        },
+        {
+            "slug": "transfer",
+            "text": "Transfer"
+        },
+        {
+            "slug": "register",
+            "text": "Register"
+        },
+        {
+            "slug": "available",
+            "text": "Available"
+        },
+        {
+            "slug": "nameserver",
+            "text": "Nameserver"
+        },
+        {
+            "slug": "pay_invoice",
+            "text": "Pay Invoice"
+        },
+        {
+            "slug": "payment_method",
+            "text": "Payment Method"
+        },
+        {
+            "slug": "client_cc_payment_successful",
+            "text": "Your Credit\/Debit Card payment was successful."
+        },
+        {
+            "slug": "client_cc_payment_failed",
+            "text": "Your Credit\/Debit Card payment was unsuccessful. Please try again or contact us for assistance."
+        },
+        {
+            "slug": "client_ach_payment_successful",
+            "text": "Your ACH account payment was successful."
+        },
+        {
+            "slug": "client_ach_payment_failed",
+            "text": "Your ACH account payment was unsuccessful. Please try again or contact us for assistance."
+        },
+        {
+            "slug": "payment_successfully_taken",
+            "text": "Your payment was successfully taken."
+        },
+        {
+            "slug": "error_taking_payment",
+            "text": "An error occurred taking your payment. Please try again or contact us for assistance."
+        },
+        {
+            "slug": "view_order",
+            "text": "View Order"
+        },
+        {
+            "slug": "order_details",
+            "text": "Order Details"
+        },
+        {
+            "slug": "origin_ip",
+            "text": "Origin IP"
+        },
+        {
+            "slug": "origin_hostname",
+            "text": "Origin Hostname"
+        },
+        {
+            "slug": "payment_status",
+            "text": "Payment Status"
+        },
+        {
+            "slug": "order_status",
+            "text": "Order Status"
+        },
+        {
+            "slug": "order_items",
+            "text": "Order Items"
+        },
+        {
+            "slug": "activate_order",
+            "text": "Activate Order"
+        },
+        {
+            "slug": "set_to_pending",
+            "text": "Set to Pending"
+        },
+        {
+            "slug": "terminate_order",
+            "text": "Terminate Order"
+        },
+        {
+            "slug": "warning",
+            "text": "Warning"
+        },
+        {
+            "slug": "confirm_order_termination",
+            "text": "Once you terminate an order, each associated service will also be terminated. In addition, any outstanding invoices for any services that are part of this order will be marked as void."
+        },
+        {
+            "slug": "order_management",
+            "text": "Order Management"
+        },
+        {
+            "slug": "order_activated",
+            "text": "The order has been marked as active. Any order items have also been instructed to activate using their individual control panels or service providers."
+        },
+        {
+            "slug": "order_status_updated",
+            "text": "The order status has been updated."
+        },
+        {
+            "slug": "error_updating_order_status",
+            "text": "An error occurred updating the order status. Please try again."
+        },
+        {
+            "slug": "cart_is_empty",
+            "text": "Cart is empty."
+        },
+        {
+            "slug": "order_no",
+            "text": "Order No"
+        },
+        {
+            "slug": "taxlevel_edit",
+            "text": "Edit Tax Level"
+        },
+        {
+            "slug": "domainextension_edit",
+            "text": "Edit Domain Extension"
+        },
+        {
+            "slug": "staff_add",
+            "text": "Add Staff Member"
+        },
+        {
+            "slug": "staff_edit",
+            "text": "Edit Staff Member"
+        },
+        {
+            "slug": "staffgroup_management",
+            "text": "Staff Group Management"
+        },
+        {
+            "slug": "staffgroup_edit",
+            "text": "Edit Staff Group"
+        },
+        {
+            "slug": "staffgroup_add",
+            "text": "Add Staff Group"
+        },
+        {
+            "slug": "frontend_settings",
+            "text": "Frontend Settings"
+        },
+        {
+            "slug": "announcement_management",
+            "text": "Announcement Management"
+        },
+        {
+            "slug": "announcement_edit",
+            "text": "Edit Announcement"
+        },
+        {
+            "slug": "announcement_add",
+            "text": "Add Announcement"
+        },
+        {
+            "slug": "body",
+            "text": "Body"
+        },
+        {
+            "slug": "publish_date",
+            "text": "Publish Date"
+        },
+        {
+            "slug": "is_published",
+            "text": "Published?"
+        },
+        {
+            "slug": "individual_language_only",
+            "text": "Restrict to clients who use this language."
+        },
+        {
+            "slug": "clients_only",
+            "text": "Visible to clients only."
+        },
+        {
+            "slug": "addon_management",
+            "text": "Addon Management"
+        },
+        {
+            "slug": "uninstall",
+            "text": "Uninstall"
+        },
+        {
+            "slug": "install",
+            "text": "Install"
+        },
+        {
+            "slug": "error_installing_addon",
+            "text": "An error occurred when installing the addon. Please check that your account has write permissions in the addon directory and try again."
+        },
+        {
+            "slug": "error_enabling_addon",
+            "text": "An error occurred when enabling the addon. Please try again."
+        },
+        {
+            "slug": "error_disabling_addon",
+            "text": "An error occurred when disabling the addon. Please try again."
+        },
+        {
+            "slug": "error_uninstalling_addon",
+            "text": "An error occurred when uninstalling the addon. Please try again."
+        },
+        {
+            "slug": "version",
+            "text": "Version"
+        },
+        {
+            "slug": "id",
+            "text": "ID"
+        },
+        {
+            "slug": "customer",
+            "text": "Customer"
+        },
+        {
+            "slug": "item_not_found",
+            "text": "Requested item could not be found"
+        },
+        {
+            "slug": "read",
+            "text": "Read"
+        },
+        {
+            "slug": "security",
+            "text": "Security"
+        },
+        {
+            "slug": "host",
+            "text": "Host"
+        },
+        {
+            "slug": "update",
+            "text": "Update"
+        },
+        {
+            "slug": "installed_version",
+            "text": "Installed Version"
+        },
+        {
+            "slug": "addon_updated",
+            "text": "The addon was successfully updated."
+        },
+        {
+            "slug": "error_updating_addon",
+            "text": "An error occurred when updating the addon. Please try again."
+        },
+        {
+            "slug": "addon_disabled",
+            "text": "The addon was successfully disabled."
+        },
+        {
+            "slug": "addon_enabled",
+            "text": "The addon was successfully enabled."
+        },
+        {
+            "slug": "addon_uninstalled",
+            "text": "The addon was successfully uninstalled."
+        },
+        {
+            "slug": "addon_installed",
+            "text": "The addon was successfully installed."
+        },
+        {
+            "slug": "passphrase_settings",
+            "text": "Passphrase Settings"
+        },
+        {
+            "slug": "passphrase",
+            "text": "Passphrase"
+        },
+        {
+            "slug": "confirm_passphrase",
+            "text": "Confirm Passphrase"
+        },
+        {
+            "slug": "passphrase_info",
+            "text": "<p>WHSuite provides the (recommended) option of setting a security passphrase. This is used to protect your customers credit card and bank details. Whilst a passphrase is not required for the encryption of customer data, it does add an extra layer of security, as the data can not be retrieved without the passphrase.<\/p>\n\n<p>There are however a few points you should note before entering a passphrase; once a passphrase is set, you will need to remember it. It's not stored anywhere at all, so if you lose it, you lose anything encrypted with it. In addition, automated payments via cron will no longer work, as the passphrase will need to be entered manually to decrypt the payment details.<\/p>\n\n<p>We highly recommend using a passphrase, and accept no responsibility for the security or storage of your customers data. If you choose not to use a passphrase, you should consider using a 3rd party provider for storing your credit card details.<\/p>"
+        },
+        {
+            "slug": "current_passphrase",
+            "text": "Current Passphrase"
+        },
+        {
+            "slug": "existing_passphrase_invalid",
+            "text": "The current passphrase was not valid. Please try again."
+        },
+        {
+            "slug": "passphrase_not_match",
+            "text": "The two passphrase fields did not match. Please try again."
+        },
+        {
+            "slug": "passphrase_updated",
+            "text": "The system passphrase has been updated successfully."
+        },
+        {
+            "slug": "pending_orders",
+            "text": "Pending Orders"
+        },
+        {
+            "slug": "menu_management",
+            "text": "Menu Management"
+        },
+        {
+            "slug": "manage_links",
+            "text": "Manage Links"
+        },
+        {
+            "slug": "url",
+            "text": "URL"
+        },
+        {
+            "slug": "link_type",
+            "text": "Link Type"
+        },
+        {
+            "slug": "internal_route",
+            "text": "Internal Route"
+        },
+        {
+            "slug": "full_url",
+            "text": "Full URL"
+        },
+        {
+            "slug": "class",
+            "text": "Class"
+        },
+        {
+            "slug": "add_link",
+            "text": "Add Link"
+        },
+        {
+            "slug": "menu",
+            "text": "Menu"
+        },
+        {
+            "slug": "links",
+            "text": "Links"
+        },
+        {
+            "slug": "menu_added",
+            "text": "The menu was successfully added."
+        },
+        {
+            "slug": "menu_updated",
+            "text": "The menu was successfully updated."
+        },
+        {
+            "slug": "error_adding_menu",
+            "text": "There was an error adding the menu. Please try again."
+        },
+        {
+            "slug": "error_updating_menu",
+            "text": "There was an error updating the menu. Please try again."
+        },
+        {
+            "slug": "link_added",
+            "text": "The link was successfully added."
+        },
+        {
+            "slug": "error_adding_link",
+            "text": "There was an error adding the link. Please try again."
+        },
+        {
+            "slug": "link_updated",
+            "text": "The link was successfully updated."
+        },
+        {
+            "slug": "error_updating_link",
+            "text": "There was an error updating the link. Please try again."
+        },
+        {
+            "slug": "link_deleted",
+            "text": "The link was successfully deleted."
+        },
+        {
+            "slug": "error_deleting_link",
+            "text": "There was an error deleting the link. Please try again."
+        },
+        {
+            "slug": "menu_name",
+            "text": "Menu Name"
+        },
+        {
+            "slug": "delete_menu",
+            "text": "Delete Menu"
+        },
+        {
+            "slug": "menu_cant_be_deleted",
+            "text": "The selected menu can not be deleted as it is required by WHSuite."
+        },
+        {
+            "slug": "menu_deleted",
+            "text": "The menu was successfully deleted."
+        },
+        {
+            "slug": "error_deleting_menu",
+            "text": "There was an error deleting the menu. Please try again."
+        },
+        {
+            "slug": "edit_link",
+            "text": "Edit Link"
+        },
+        {
+            "slug": "add_menu",
+            "text": "Add Menu"
+        },
+        {
+            "slug": "my_account",
+            "text": "My Account"
+        },
+        {
+            "slug": "download",
+            "text": "Download"
+        },
+        {
+            "slug": "report",
+            "text": "Report"
+        },
+        {
+            "slug": "all",
+            "text": "All"
+        },
+        {
+            "slug": "all_clients",
+            "text": "All Clients"
+        },
+        {
+            "slug": "outstanding_invoices",
+            "text": "Outstanding Invoices"
+        },
+        {
+            "slug": "12_month_income",
+            "text": "12 Month Income"
+        },
+        {
+            "slug": "account_does_not_exist_on_server",
+            "text": "The account you were trying to access does not exist on the server."
+        },
+        {
+            "slug": "loading_widget",
+            "text": "Loading Widget"
+        },
+        {
+            "slug": "groups",
+            "text": "Groups"
+        },
+        {
+            "slug": "available_widgets",
+            "text": "Available Widgets"
+        },
+        {
+            "slug": "selected_widgets",
+            "text": "Selected Widgets"
+        },
+        {
+            "slug": "account_created",
+            "text": "The account was successfully created."
+        },
+        {
+            "slug": "error_creating_account",
+            "text": "There was an error creating the account. Please try again."
+        },
+        {
+            "slug": "account_suspended",
+            "text": "The account was successfully suspended."
+        },
+        {
+            "slug": "error_suspending_account",
+            "text": "There was an error suspending the account. Please try again."
+        },
+        {
+            "slug": "account_unsuspended",
+            "text": "The account was successfully unsuspended."
+        },
+        {
+            "slug": "error_unsuspending_account",
+            "text": "There was an error unsuspending the account. Please try again."
+        },
+        {
+            "slug": "account_terminated",
+            "text": "The account was successfully terminated."
+        },
+        {
+            "slug": "error_terminating_account",
+            "text": "There was an error terminating the account. Please try again."
+        },
+        {
+            "slug": "diskspace",
+            "text": "Diskspace"
+        },
+        {
+            "slug": "bandwidth",
+            "text": "Bandwidth"
+        },
+        {
+            "slug": "load_averages",
+            "text": "Load Averages"
+        },
+        {
+            "slug": "options",
+            "text": "Options"
+        },
+        {
+            "slug": "reboot_server",
+            "text": "Reboot Server"
+        },
+        {
+            "slug": "loading",
+            "text": "Loading"
+        },
+        {
+            "slug": "servergroup_delete",
+            "text": "Delete Server Group"
+        },
+        {
+            "slug": "product_added",
+            "text": "Product Added"
+        },
+        {
+            "slug": "widgets",
+            "text": "Widgets"
+        },
+        {
+            "slug": "selected_shortcuts",
+            "text": "Selected Shortcuts"
+        },
+        {
+            "slug": "available_shortcuts",
+            "text": "Available Shortcuts"
+        },
+        {
+            "slug": "shortcut_new_customers",
+            "text": "New Customers"
+        },
+        {
+            "slug": "shortcut_overdue_invoices",
+            "text": "Overdue Invoices"
+        },
+        {
+            "slug": "shortcut_unpaid_invoices",
+            "text": "Unpaid Invoices"
+        },
+        {
+            "slug": "shortcut_new_orders",
+            "text": "New Orders"
+        },
+        {
+            "slug": "widget_recent_orders",
+            "text": "Recent Orders"
+        },
+        {
+            "slug": "domain_not_found_at_registrar",
+            "text": "The domain was not found at the registrar."
+        },
+        {
+            "slug": "auth_code",
+            "text": "Auth Code"
+        },
+        {
+            "slug": "add_more",
+            "text": "Add More"
+        },
+        {
+            "slug": "address3",
+            "text": "Address Line 3"
+        },
+        {
+            "slug": "telephone_country_code",
+            "text": "Telephone Country Code"
+        },
+        {
+            "slug": "domain_raa_pending_notice",
+            "text": "An email has been sent to the domain registrant for verification. They must click the confirmation link provided in the email within 15 days of registration. Failure to do so will result in deactivation of the domain name."
+        },
+        {
+            "slug": "child_nameservers",
+            "text": "Child Name Servers"
+        },
+        {
+            "slug": "add_child_nameserver",
+            "text": "Add Child Name Server"
+        },
+        {
+            "slug": "domain_raa_email_resent",
+            "text": "The domain verification email has been resent to the domain registrant."
+        },
+        {
+            "slug": "check_availability",
+            "text": "Check Availability"
+        },
+        {
+            "slug": "domain_registration_error_contact_details",
+            "text": "The domain could not be registered due to invalid contact details. Please verify the contact details are accurate and try again."
+        },
+        {
+            "slug": "payment_via_gateway",
+            "text": "Payment via gateway"
+        },
+        {
+            "slug": "settings_updated",
+            "text": "The system settings were successfully updated."
+        },
+        {
+            "slug": "domain_lookup_invalid",
+            "text": "A valid domain and\/or extension was not entered or selected. Please try again."
+        },
+        {
+            "slug": "gateway_management",
+            "text": "Gateway Management"
+        },
+        {
+            "slug": "gateway_edit",
+            "text": "Edit Gateway"
+        },
+        {
+            "slug": "supported_currencies",
+            "text": "Supported Currencies"
+        },
+        {
+            "slug": "gateway_display_order",
+            "text": "Gateway Display Order"
+        },
+        {
+            "slug": "default_currency",
+            "text": "Default Currency"
+        },
+        {
+            "slug": "create_product",
+            "text": "Create Product"
+        },
+        {
+            "slug": "new_product_step_two",
+            "text": "New Product: Step Two"
+        },
+        {
+            "slug": "no_domain_extensions_exist",
+            "text": "No domain extensions exist. Please create a new domain extension, and assign it to a registrar before creating a domain product."
+        },
+        {
+            "slug": "login_account_suspended",
+            "text": "This account is currently suspended due to too many failed login attempts."
+        },
+        {
+            "slug": "login_account_banned",
+            "text": "This account is currently banned and can not be accessed."
+        },
+        {
+            "slug": "login_email_required",
+            "text": "Email address is required."
+        },
+        {
+            "slug": "login_password_required",
+            "text": "Password field is required"
+        },
+        {
+            "slug": "login_incorrect_details",
+            "text": "Incorrect email address and \/ or password"
+        },
+        {
+            "slug": "client_id",
+            "text": "Client Information"
+        },
+        {
+            "slug": "new_password_email_sent",
+            "text": "A new password has been emailed to the email address on file."
+        },
+        {
+            "slug": "new_password_email_error",
+            "text": "There was a problem emailing a new password. Please try again."
+        },
+        {
+            "slug": "new_password_invalid_reset_code",
+            "text": "The password reset reuest could not be completed because the reset key was invalid or has expired. Please re-request a password reset and try again."
+        },
+        {
+            "slug": "delete_email_template",
+            "text": "Delete Email Template"
+        },
+        {
+            "slug": "emailtemplate_add",
+            "text": "Add Email Template"
+        },
+        {
+            "slug": "login_account_not_active",
+            "text": "This account has not yet been activated"
+        },
+        {
+            "slug": "validation.url",
+            "text": "The {field} field did not contain a valid URL."
+        },
+        {
+            "slug": "validation.numeric",
+            "text": "The {field} field did not contain a numeric value."
+        },
+        {
+            "slug": "client_added",
+            "text": "The client was successfully created."
+        },
+        {
+            "slug": "phone",
+            "text": "Telephone"
+        },
+        {
+            "slug": "request_new_password",
+            "text": "Request New Password"
+        },
+        {
+            "slug": "no_user_found",
+            "text": "No user was found with those details."
+        },
+        {
+            "slug": "guest",
+            "text": "Guest"
+        },
+        {
+            "slug": "password_reset_request_sent",
+            "text": "Your reset request was received. Please check your email account for your new password."
+        },
+        {
+            "slug": "addon_not_installed",
+            "text": "The required addon is not installed."
+        },
+        {
+            "slug": "search",
+            "text": "Search"
+        },
+        {
+            "slug": "search_results",
+            "text": "Search Results"
+        },
+        {
+            "slug": "access_control_panel",
+            "text": "Access Control Panel"
+        },
+        {
+            "slug": "suspend_account",
+            "text": "Suspend Account"
+        },
+        {
+            "slug": "unsuspend_account",
+            "text": "Unsuspend Account"
+        },
+        {
+            "slug": "terminate_account",
+            "text": "Terminate Account"
+        },
+        {
+            "slug": "validation.unique",
+            "text": "The {field} field is already in use. Please enter a different one."
+        },
+        {
+            "slug": "reenter_account_number",
+            "text": "Re-enter Account Number"
+        },
+        {
+            "slug": "reenter_routing_number",
+            "text": "Re-enter Routing Number"
+        },
+        {
+            "slug": "reenter_card_number",
+            "text": "Re-enter Card Number"
+        },
+        {
+            "slug": "reenter_expiry_date",
+            "text": "Re-enter Expiry Date"
+        },
+        {
+            "slug": "ach_account",
+            "text": "ACH Account"
+        },
+        {
+            "slug": "currency_id",
+            "text": "Currency"
+        },
+        {
+            "slug": "client_emails",
+            "text": "Client Emails"
+        },
+        {
+            "slug": "select_currency",
+            "text": "Select Currency"
+        },
+        {
+            "slug": "shortcuts",
+            "text": "Shortcuts"
+        },
+        {
+            "slug": "add_credit_note",
+            "text": "Add Credit Note"
+        },
+        {
+            "slug": "restart_httpd",
+            "text": "Restart HTTPD"
+        },
+        {
+            "slug": "restart_mysql",
+            "text": "Restart MySQL"
+        },
+        {
+            "slug": "server_response",
+            "text": "Server Response:"
+        },
+        {
+            "slug": "ach_account_successfully_saved",
+            "text": "The ACH account was successfully saved."
+        },
+        {
+            "slug": "request_submitted",
+            "text": "Your request has been submitted successfully."
+        },
+        {
+            "slug": "error_submitting_request",
+            "text": "There was a problem submitting your request. Please try again."
+        },
+        {
+            "slug": "decrypt_routing_number",
+            "text": "Decrypt Routing Number"
+        },
+        {
+            "slug": "parent",
+            "text": "Parent"
+        },
+        {
+            "slug": "invalid_route",
+            "text": "The route specified is an invalid route."
+        },
+        {
+            "slug": "addon_dir_permissions_warning",
+            "text": "The WHSuite addons directory is not currently writable. This will prevent any addons from being installed or updated."
+        },
+        {
+            "slug": "transaction_types_description",
+            "text": "A receipt transaction will add funds to the client's credit balance. A debit transaction will remove funds from the client's credit balance."
+        },
+        {
+            "slug": "void",
+            "text": "Void"
+        },
+        {
+            "slug": "transaction_refunded",
+            "text": "The transaction record was successfully marked as refunded."
+        },
+        {
+            "slug": "transaction_updated",
+            "text": "The transaction record was successfully updated."
+        },
+        {
+            "slug": "void_transaction",
+            "text": "Void Transaction"
+        },
+        {
+            "slug": "refund_transaction",
+            "text": "Refund Transaction"
+        },
+        {
+            "slug": "remove_from_invoice",
+            "text": "Remove From Invoice"
+        },
+        {
+            "slug": "invoice_payment",
+            "text": "Invoice Payment"
+        },
+        {
+            "slug": "manage_transaction",
+            "text": "Manage Transaction"
+        },
+        {
+            "slug": "refunded",
+            "text": "Refunded"
+        },
+        {
+            "slug": "credit_note",
+            "text": "Credit Note"
+        },
+        {
+            "slug": "debit_note",
+            "text": "Debit Note"
+        },
+        {
+            "slug": "invoice_payment_from_credit_balance",
+            "text": "Invoice Payment from Credit Balance"
+        },
+        {
+            "slug": "credit_usage",
+            "text": "Invoice (from Credit)"
+        },
+        {
+            "slug": "domain_not_registered",
+            "text": "The domain does not appear to be registered, or there was an error communicating with the registration service."
+        },
+        {
+            "slug": "domain_already_registered",
+            "text": "The domain name is already registered."
+        },
+        {
+            "slug": "registration_error_nameservers",
+            "text": "The domain registration could not be processed.  Either registration period, or the nameservers entered were invalid. Please ensure two valid nameservers were entered, and try again."
+        },
+        {
+            "slug": "domain_registration_error",
+            "text": "The domain registration could not be processed. Please check that all details provided are correct and try again."
+        },
+        {
+            "slug": "domains",
+            "text": "Domains"
+        },
+        {
+            "slug": "manage_contacts",
+            "text": "Manage Contacts"
+        },
+        {
+            "slug": "domain_updated",
+            "text": "The domain was successfully updated."
+        },
+        {
+            "slug": "domain_update_error",
+            "text": "An error occurred when updating the domain."
+        },
+        {
+            "slug": "no_announcements_found",
+            "text": "There are no current announcements."
+        },
+        {
+            "slug": "product_group_fields",
+            "text": "Product Group Fields"
+        },
+        {
+            "slug": "validation.max.numeric",
+            "text": "The {field} field exceeded the maximum value allowed."
+        },
+        {
+            "slug": "validation.min.numeric",
+            "text": "The {field} field was below the minimum allowed value."
+        },
+        {
+            "slug": "domain_transfer_error",
+            "text": "There was a problem processing the domain transfer request. Please check the domain transfer code (if applicable) was correct, and that the domain is unlocked at it's current registrar. The domain must also be at leat 60 days old to be eligible for transfer."
+        },
+        {
+            "slug": "permission_denied",
+            "text": "Permission Denied. You do not have sufficient privileges to access this page."
+        },
+        {
+            "slug": "contact_profile_saved",
+            "text": "The contact profile was saved successfully."
+        },
+        {
+            "slug": "contact_profile_deleted",
+            "text": "The contact profile was deleted successfully."
+        },
+        {
+            "slug": "error_deleting_contact_profile",
+            "text": "The contact profile you selected could not be deleted. This may be due to the contact profile being in use for one of your domains."
+        },
+        {
+            "slug": "manage_contact_profile",
+            "text": "Manage Contact Profile"
+        },
+        {
+            "slug": "add_contact_profile",
+            "text": "Add Contact Profile"
+        },
+        {
+            "slug": "contact_profile_in_use",
+            "text": "The selected contact profile is in use by one or more domains and can not be deleted."
+        },
+        {
+            "slug": "contact_type",
+            "text": "Contact Type"
+        },
+        {
+            "slug": "registrant",
+            "text": "Registrant"
+        },
+        {
+            "slug": "administrative",
+            "text": "Administrative"
+        },
+        {
+            "slug": "technical",
+            "text": "Technical"
+        },
+        {
+            "slug": "telephone_cc",
+            "text": "Telephone Country Code"
+        },
+        {
+            "slug": "fax_cc",
+            "text": "Fax Country Code"
+        },
+        {
+            "slug": "fax",
+            "text": "Fax"
+        },
+        {
+            "slug": "job_title",
+            "text": "Job Title"
+        },
+        {
+            "slug": "error_saving_contact_profile",
+            "text": "An error occurred when saving your contact details. Please check they were entered correctly and try again."
+        },
+        {
+            "slug": "new_contact",
+            "text": "New Contact"
+        },
+        {
+            "slug": "date_account_created",
+            "text": "Account Created"
+        },
+        {
+            "slug": "error_loading_service",
+            "text": "There was an error while trying to load the selected service."
+        },
+        {
+            "slug": "no_server_groups_exist",
+            "text": "No server groups \/ servers exist, please create a server group and assign servers to that group before proceeding."
+        },
+        {
+            "slug": "profile_updated",
+            "text": "Profile Updated"
+        },
+        {
+            "slug": "published",
+            "text": "Published"
+        },
+        {
+            "slug": "draft",
+            "text": "Draft"
+        },
+        {
+            "slug": "registrant_contact_details",
+            "text": "Registrant Contact Details"
+        },
+        {
+            "slug": "administrative_contact_details",
+            "text": "Administrative Contact Details"
+        },
+        {
+            "slug": "technical_contact_details",
+            "text": "Technical Contact Details"
+        },
+        {
+            "slug": "billing_contact_details",
+            "text": "Billing Contact Details"
+        },
+        {
+            "slug": "visa",
+            "text": "Visa"
+        },
+        {
+            "slug": "amex",
+            "text": "American Express"
+        },
+        {
+            "slug": "mastercard",
+            "text": "Master Card"
+        },
+        {
+            "slug": "visa electron",
+            "text": "Visa Electron"
+        },
+        {
+            "slug": "discover",
+            "text": "Discover"
+        },
+        {
+            "slug": "diners",
+            "text": "Diners"
+        },
+        {
+            "slug": "enroute",
+            "text": "Enroute"
+        },
+        {
+            "slug": "jcb",
+            "text": "JCB"
+        },
+        {
+            "slug": "laser",
+            "text": "Laser"
+        },
+        {
+            "slug": "maestro",
+            "text": "Maestro"
+        },
+        {
+            "slug": "product_updated",
+            "text": "The product was sucessfully updated."
+        },
+        {
+            "slug": "validation.min.string",
+            "text": "The value you entered in the {field} field was too short."
+        },
+        {
+            "slug": "use_registrant_contact",
+            "text": "Use registrant contact details for all contacts."
+        },
+        {
+            "slug": "language_management",
+            "text": "Language Management"
+        },
+        {
+            "slug": "import_language",
+            "text": "Import Language"
+        },
+        {
+            "slug": "uploader_not_active",
+            "text": "You need to install the Uploader addon in order to import a language pack"
+        },
+        {
+            "slug": "pack_upload_fail",
+            "text": "There was a problem uploading your language pack."
+        },
+        {
+            "slug": "pack_failed",
+            "text": "There was a problem installing your language pack."
+        },
+        {
+            "slug": "pack_installed",
+            "text": "Language pack was installed successfully"
+        },
+        {
+            "slug": "file_to_import",
+            "text": "File to import"
+        },
+        {
+            "slug": "cant_delete_english",
+            "text": "The English language pack is restricted. You cannot remove this as it is used for \"fallbacks\" when certain strings don't exist in other languages."
+        },
+        {
+            "slug": "email_warning_intro",
+            "text": "The following Email Templates were not installed due to them already existing in the system. This is to prevent any changes you have made from being overriden. Please check the Language Site to see if you need to manually upgrade any."
+        },
+        {
+            "slug": "upload_not_json",
+            "text": "Please make sure you uploaded the JSON language pack file that was located within the ZIP download from our translations site."
+        },
+        {
+            "slug": "invoice_overpayment_account_credit",
+            "text": "Invoice Overpayment - Account Credit Issued"
+        },
+        {
+            "slug": "payment",
+            "text": "Payment"
+        },
+        {
+            "slug": "credit_issued",
+            "text": "Credit Issued"
+        },
+        {
+            "slug": "404_body",
+            "text": "It looks like we couldn't find the page you were looking for!"
+        },
+        {
+            "slug": "404_title",
+            "text": "404 Page Not Found"
+        },
+        {
+            "slug": "activate",
+            "text": "Activate"
+        },
+        {
+            "slug": "client_successfully_activated",
+            "text": "Client has been activated"
+        },
+        {
+            "slug": "error_activating_client",
+            "text": "There was an error activating the client, please try again."
+        },
+        {
+            "slug": "registrar_id",
+            "text": "Registrar"
+        },
+        {
+            "slug": "please_wait",
+            "text": "Please Wait..."
+        },
+        {
+            "slug": "use_registrant_contact",
+            "text": "Use Registrant contact details for all domain contacts."
+        },
+        {
+            "slug": "validation.nameservers",
+            "text": "The nameservers you entered were invalid. Please provide at least two working nameservers."
+        },
+        {
+            "slug": "are_you_sure",
+            "text": "Are you sure?"
+        },
+        {
+            "slug": "create_invoice",
+            "text": "Create Invoice"
+        },
+        {
+            "slug": "account_credit_invoice_created",
+            "text": "Account credit invoice created successfully. Account Credit will be applied once invoice has been paid"
+        },
+        {
+            "slug": "account_credit_invoice_failed",
+            "text": "There was a problem creating the account credit invoice"
+        },
+        {
+            "slug": "insufficient_funds",
+            "text": "There are insufficient funds to cover the payment"
+        },
+        {
+            "slug": "renewal_price",
+            "text": "Renewal Price"
+        },
+        {
+            "slug": "target",
+            "text": "Target"
+        },
+        {
+            "slug": "no_gateways_notice",
+            "text": "There were no active payment gateways found."
+        },
+        {
+            "slug": "activate_gateway_addon",
+            "text": "Activate A Payment Gateway Addon"
+        },
+        {
+            "slug": "currency_gateway_instructions",
+            "text": "To enable payment gateways for this currency, drag them from the left hand list of available currencies into the selected currencies section on the right. You can then drag them up and down to set the display order. To remove a gateway, drag it back onto the available gateways section."
+        },
+        {
+            "slug": "available_gateways",
+            "text": "Available Gateways"
+        },
+        {
+            "slug": "selected_gateways",
+            "text": "Selected Gateways"
+        },
+        {
+            "slug": "no_currency_gateways_notice",
+            "text": "No payment gateways could be found. Either your payment gateways are not active, or you do not have any payment gateway addons enabled."
+        }
+    ],
+    "EmailTemplates": {
+        "new_client_password": {
+            "slug": "new_client_password",
+            "EmailTemplateTranslation": {
+                "subject": "Your account password has been reset.",
+                "html_body_default": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\r\n\r\n<p>Your password at {{settings.general.sitename}} has been reset either by yourself or a staff member. If you did not request a new password, please contact us immediately.<\/p>\r\n\r\n<p><b>Your new account password is:<\/b> {{password}}<\/p>\r\n\r\n<p>We recommend you change this to something secure and memorable as soon as possible.<\/p>\r\n\r\n{{{settings.mail.email_signature_html}}}",
+                "html_body": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\r\n\r\n<p>Your password at {{settings.general.sitename}} has been reset either by yourself or a staff member. If you did not request a new password, please contact us immediately.<\/p>\r\n\r\n<p><b>Your new account password is:<\/b> {{password}}<\/p>\r\n\r\n<p>We recommend you change this to something secure and memorable as soon as possible.<\/p>\r\n\r\n{{{settings.mail.email_signature_html}}}",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\n\nYour password at {{settings.general.sitename}} has been reset either by yourself or a staff member. If you did not request a new password, please contact us immediately.\r\n\r\n===============================================================\r\nYour new account password is: {{password}}\r\n===============================================================\r\n\r\nWe recommend you change this to something secure and memorable as soon as possible.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\n\nYour password at {{settings.general.sitename}} has been reset either by yourself or a staff member. If you did not request a new password, please contact us immediately.\r\n\r\n===============================================================\r\nYour new account password is: {{password}}\r\n===============================================================\r\n\r\nWe recommend you change this to something secure and memorable as soon as possible.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Send New Password to Client",
+            "available_tags": "client.first_name, client.last_name, client.email, new_password"
+        },
+        "client_invoice": {
+            "slug": "client_invoice",
+            "EmailTemplateTranslation": {
+                "subject": "{{settings.general.sitename}} Invoice no. {{invoice.invoice_no}} ",
+                "html_body_default": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\r\n\r\n<p>Please find attached your latest invoice for services purchased from {{settings.general.sitename}}. Please note that this invoice is due on or before {{invoice.date_due}}.<\/p>\r\n\r\n<p>You can log into your account to pay this invoice, by visiting <a href=\"{{settings.general.site_url}}\">{{settings.general.site_url}}<\/a>.<\/p>\r\n\r\n{{{settings.mail.email_signature_html}}}",
+                "html_body": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\r\n\r\n<p>Please find attached your latest invoice for services purchased from {{settings.general.sitename}}. Please note that this invoice is due on or before {{invoice.date_due}}.<\/p>\r\n\r\n<p>You can log into your account to pay this invoice, by visiting <a href=\"{{settings.general.site_url}}\">{{settings.general.site_url}}<\/a>.<\/p>\r\n\r\n{{{settings.mail.email_signature_html}}}",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nPlease find attached your latest invoice for services purchased from {{settings.general.sitename}}. Please note that this invoice is due on or before {{invoice.date_due}}.\r\n\r\nYou can log into your account to pay this invoice, by visiting {{settings.general.site_url}}.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nPlease find attached your latest invoice for services purchased from {{settings.general.sitename}}. Please note that this invoice is due on or before {{invoice.date_due}}.\r\n\r\nYou can log into your account to pay this invoice, by visiting {{settings.general.site_url}}.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Client Invoice",
+            "available_tags": "client.first_name,client.last_name,client.company,client.address1,client.address2,client.city,client.state,client.postcode,client.country,client.phone,invoice.id,invoice.invoice_no,invoice.date_due,invoice.created_at,invoice.total,invoice.total_paid,currency.code,currency.prefix,currency.suffix"
+        },
+        "client_ach_payment_failed": {
+            "slug": "client_ach_payment_failed",
+            "EmailTemplateTranslation": {
+                "subject": "ACH Account Payment Failed",
+                "html_body_default": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\n\n<p>We attempted to charge your ACH payment account for your {{settings.general.site_name}} account, however the payment failed.<\/p>\n\n<p>This could be due to out dated account details, or a problem retrieving the funds from your account.<\/p>\n\n<p>Please review your payment account details to ensure your services are not interrupted due to non-payment.<\/p>\n\n<p>Total Payment Attempted: {{total_payment}}<br>\nLast 4 digits of ACH account: {{ach.account_last4}}<\/p>\n\n{{{settings.mail.email_signature_html}}}",
+                "html_body": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\n\n<p>We attempted to charge your ACH payment account for your {{settings.general.site_name}} account, however the payment failed.<\/p>\n\n<p>This could be due to out dated account details, or a problem retrieving the funds from your account.<\/p>\n\n<p>Please review your payment account details to ensure your services are not interrupted due to non-payment.<\/p>\n\n<p>Total Payment Attempted: {{total_payment}}<br>\nLast 4 digits of ACH account: {{ach.account_last4}}<\/p>\n\n{{{settings.mail.email_signature_html}}}",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\n\nWe attempted to charge your ACH payment account for your {{settings.general.site_name}} account, however the payment failed.\r\n\r\nThis could be due to out dated account details, or a problem retrieving the funds from your account. \r\n\r\nPlease review your payment account details to ensure your services are not interrupted due to non-payment.\r\n\r\nTotal Payment Attempted: {{total_payment}}\r\nLast 4 digits of ACH account: {{ach.account_last4}}\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\n\nWe attempted to charge your ACH payment account for your {{settings.general.site_name}} account, however the payment failed.\r\n\r\nThis could be due to out dated account details, or a problem retrieving the funds from your account. \r\n\r\nPlease review your payment account details to ensure your services are not interrupted due to non-payment.\r\n\r\nTotal Payment Attempted: {{total_payment}}\r\nLast 4 digits of ACH account: {{ach.account_last4}}\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Client ACH Payment Failed",
+            "available_tags": "client.first_name,client.last_name,client.company,client.address1,client.address2,client.city,client.state,client.postcode,client.country,client.phone,invoice.invoice_no,invoice.date_due,invoice.date_paid,invoice.total,invoice.total_paid,currency.code,currency.prefix,currency.suffix,total_payment,ach.account_last4"
+        },
+        "client_cc_payment_failed": {
+            "slug": "client_cc_payment_failed",
+            "EmailTemplateTranslation": {
+                "subject": "Credit Card Payment Failed",
+                "html_body_default": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\n\n<p>We attempted to charge your stored credit\/debit card for your {{settings.general.sitename}} account, however the payment failed.<\/p>\r\n\r\n<p>This could be due to out dated account details, or a problem retrieving the funds from your account. <\/p>\r\n\r\n<p>Please review your payment account details to ensure your services are not interrupted due to non-payment.<\/p>\r\n\r\n<p>Total Payment Attempted: {{total_payment}}<br>\r\nLast 4 digits of card: {{cc.account_last4}}<\/p>\r\n\r\n{{{settings.mail.email_signature_html}}}",
+                "html_body": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\n\n<p>We attempted to charge your stored credit\/debit card for your {{settings.general.sitename}} account, however the payment failed.<\/p>\r\n\r\n<p>This could be due to out dated account details, or a problem retrieving the funds from your account. <\/p>\r\n\r\n<p>Please review your payment account details to ensure your services are not interrupted due to non-payment.<\/p>\r\n\r\n<p>Total Payment Attempted: {{total_payment}}<br>\r\nLast 4 digits of card: {{cc.account_last4}}<\/p>\r\n\r\n{{{settings.mail.email_signature_html}}}",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\n\nWe attempted to charge your stored credit\/debit card for your {{settings.general.sitename}} account, however the payment failed.\r\n\r\nThis could be due to out dated account details, or a problem retrieving the funds from your account. \r\n\r\nPlease review your payment account details to ensure your services are not interrupted due to non-payment.\r\n\r\nTotal Payment Attempted: {{total_payment}}\r\nLast 4 digits of card: {{cc.account_last4}}\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\n\nWe attempted to charge your stored credit\/debit card for your {{settings.general.sitename}} account, however the payment failed.\r\n\r\nThis could be due to out dated account details, or a problem retrieving the funds from your account. \r\n\r\nPlease review your payment account details to ensure your services are not interrupted due to non-payment.\r\n\r\nTotal Payment Attempted: {{total_payment}}\r\nLast 4 digits of card: {{cc.account_last4}}\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Client CC Payment Failed",
+            "available_tags": "client.first_name,client.last_name,client.company,client.address1,client.address2,client.city,client.state,client.postcode,client.country,client.phone,invoice.invoice_no,invoice.date_due,invoice.date_paid,invoice.total,invoice.total_paid,currency.code,currency.prefix,currency.suffix,total_payment,cc.account_last4,cc.account_expiry"
+        },
+        "invoice_overdue_first_notice": {
+            "slug": "invoice_overdue_first_notice",
+            "EmailTemplateTranslation": {
+                "subject": "Warning: Invoice Overdue (First Notice)",
+                "html_body_default": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\r\n\r\n<p>Please note that you have an invoice at {{settings.general.sitename}} which is now overdue. This is the first overdue notice.<\/p>\r\n\r\n<p>Invoice details:<br>\r\nInvoice No {{invoice.invoice_no}}<br>\r\nTotal Due: {{total_due}}<br>\r\nDate Due: {{date_due}}<\/p>\r\n\r\n<p>Please be aware that if payment is not made as soon as possible, your service may be suspended.<\/p>\r\n\r\n{{{settings.mail.email_signature_html}}}\r\n",
+                "html_body": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\r\n\r\n<p>Please note that you have an invoice at {{settings.general.sitename}} which is now overdue. This is the first overdue notice.<\/p>\r\n\r\n<p>Invoice details:<br>\r\nInvoice No {{invoice.invoice_no}}<br>\r\nTotal Due: {{total_due}}<br>\r\nDate Due: {{date_due}}<\/p>\r\n\r\n<p>Please be aware that if payment is not made as soon as possible, your service may be suspended.<\/p>\r\n\r\n{{{settings.mail.email_signature_html}}}\r\n",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nPlease note that you have an invoice at {{settings.general.sitename}} which is now overdue. This is the first overdue notice.\r\n\r\nInvoice details:\r\nInvoice No {{invoice.invoice_no}}\r\nTotal Due: {{total_due}}\r\nDate Due: {{date_due}}\r\n\r\nPlease be aware that if payment is not made as soon as possible, your service may be suspended.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}\r\n",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nPlease note that you have an invoice at {{settings.general.sitename}} which is now overdue. This is the first overdue notice.\r\n\r\nInvoice details:\r\nInvoice No {{invoice.invoice_no}}\r\nTotal Due: {{total_due}}\r\nDate Due: {{date_due}}\r\n\r\nPlease be aware that if payment is not made as soon as possible, your service may be suspended.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}\r\n"
+            },
+            "name": "Invoice Overdue (First Notice)",
+            "available_tags": "client.first_name,client.last_name,client.company,client.address1,client.address2,client.city,client.state,client.postcode,client.country,client.phone,invoice.invoice_no,invoice.date_due,invoice.date_paid,invoice.total,invoice.total_paid,currency.code,currency.prefix,currency.suffix,total_due,date_due,item.description,item.is_taxed,item.service_type,item.total,item.date_due"
+        },
+        "invoice_overdue_second_notice": {
+            "slug": "invoice_overdue_second_notice",
+            "EmailTemplateTranslation": {
+                "subject": "Second Invoice Overdue Notice",
+                "html_body_default": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;Our records show that an invoice due on {{date_due}} totalling {{currency.prefix}}{{total_due}}{{currency.suffix}} is now overdue.&lt;\/p&gt;\n\n&lt;p&gt;This is the second email we have sent regarding non-payment of this service.&lt;\/p&gt;\n\n&lt;p&gt;To prevent&nbsp;your service(s) from disruption, please&nbsp;&nbsp;your account with us is brought up to date as soon as possible.&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "html_body": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;Our records show that an invoice due on {{date_due}} totalling {{currency.prefix}}{{total_due}}{{currency.suffix}} is now overdue.&lt;\/p&gt;\n\n&lt;p&gt;This is the second email we have sent regarding non-payment of this service.&lt;\/p&gt;\n\n&lt;p&gt;To prevent&nbsp;your service(s) from disruption, please&nbsp;&nbsp;your account with us is brought up to date as soon as possible.&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nOur records show that an invoice due on {{date_due}} totalling {{total_due}} is now overdue.\r\n\r\nThis is the second email we have sent regarding non-payment of this service.\r\n\r\nTo prevent your service(s) from disruption, please ensure your account with us is brought up to date as soon as possible.\r\n\r\n{{{settings.mail.email_signature_plain}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nOur records show that an invoice due on {{date_due}} totalling {{total_due}} is now overdue.\r\n\r\nThis is the second email we have sent regarding non-payment of this service.\r\n\r\nTo prevent your service(s) from disruption, please ensure your account with us is brought up to date as soon as possible.\r\n\r\n{{{settings.mail.email_signature_plain}}}"
+            },
+            "name": "Invoice Overdue (Second Notice)",
+            "available_tags": "client.first_name,client.last_name,client.company,client.address1,client.address2,client.city,client.state,client.postcode,client.country,client.phone,invoice.invoice_no,invoice.date_due,invoice.date_paid,invoice.total,invoice.total_paid,currency.code,currency.prefix,currency.suffix,total_due,date_due,item.description,item.is_taxed,item.service_type,item.total,item.date_due"
+        },
+        "invoice_overdue_third_notice": {
+            "slug": "invoice_overdue_third_notice",
+            "EmailTemplateTranslation": {
+                "subject": "Final Notice: Invoice overdue",
+                "html_body_default": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;Our records show that an invoice due on {{date_due}} totalling {{currency.prefix}}{{total_due}}{{currency.suffix}} is now overdue.&lt;\/p&gt;\n\n&lt;p&gt;This is the third and final email we have sent regarding non-payment of this service. If your service is not paid for, it will be terminated.&lt;\/p&gt;\n\n&lt;p&gt;To prevent&nbsp;your service(s) from disruption, please &nbsp;your account with us is brought up to date as soon as possible.&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "html_body": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;Our records show that an invoice due on {{date_due}} totalling {{currency.prefix}}{{total_due}}{{currency.suffix}} is now overdue.&lt;\/p&gt;\n\n&lt;p&gt;This is the third and final email we have sent regarding non-payment of this service. If your service is not paid for, it will be terminated.&lt;\/p&gt;\n\n&lt;p&gt;To prevent&nbsp;your service(s) from disruption, please &nbsp;your account with us is brought up to date as soon as possible.&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nOur records show that an invoice due on {{date_due}} totalling {{total_due}} is now overdue.\r\n\r\nThis is the third and final email we have sent regarding non-payment of this service. If your service is not paid for, it will be terminated.\r\n\r\nTo prevent your service(s) from disruption, please ensure your account with us is brought up to date as soon as possible.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nOur records show that an invoice due on {{date_due}} totalling {{total_due}} is now overdue.\r\n\r\nThis is the third and final email we have sent regarding non-payment of this service. If your service is not paid for, it will be terminated.\r\n\r\nTo prevent your service(s) from disruption, please ensure your account with us is brought up to date as soon as possible.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Invoice Overdue (Third Notice)",
+            "available_tags": "client.first_name,client.last_name,client.company,client.address1,client.address2,client.city,client.state,client.postcode,client.country,client.phone,invoice.invoice_no,invoice.date_due,invoice.date_paid,invoice.total,invoice.total_paid,currency.code,currency.prefix,currency.suffix,total_due,date_due,item.description,item.is_taxed,item.service_type,item.total,item.date_due"
+        },
+        "service_suspended": {
+            "slug": "service_suspended",
+            "EmailTemplateTranslation": {
+                "subject": "Service Suspended",
+                "html_body_default": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;Your service provided by us has been suspended. This could be due to either late\/non payment, or for violation of our terms of service.&nbsp;&lt;\/p&gt;\n\n&lt;p&gt;If you feel this change was made in error, please contact us for assistance.&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "html_body": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;Your service provided by us has been suspended. This could be due to either late\/non payment, or for violation of our terms of service.&nbsp;&lt;\/p&gt;\n\n&lt;p&gt;If you feel this change was made in error, please contact us for assistance.&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour service provided by us has been suspended. This could be due to either late\/non payment, or for violation of our terms of service. \r\n\r\nIf you feel this change was made in error, please contact us for assistance.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour service provided by us has been suspended. This could be due to either late\/non payment, or for violation of our terms of service. \r\n\r\nIf you feel this change was made in error, please contact us for assistance.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Service Suspended",
+            "available_tags": "client.first_name,client.last_name,client.company,client.address1,client.address2,client.city,client.state,client.postcode,client.country,client.phone"
+        },
+        "card_expired": {
+            "slug": "card_expired",
+            "EmailTemplateTranslation": {
+                "subject": "Your Credit\/Debit Card Has Expired",
+                "html_body_default": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\r\n\r\n<p>Your credit or debit card ending in {{last_4}}, on file at {{settings.general.sitename}} has expired. Because of this, it has been marked as inactive on your account.<\/p>\r\n\r\n<p>If you still use this card to pay for your services with us, please login to your account and update your payment details to avoid any disruption to services.<\/p>\r\n\r\n{{{settings.mail.email_signature_html}}}",
+                "html_body": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\r\n\r\n<p>Your credit or debit card ending in {{last_4}}, on file at {{settings.general.sitename}} has expired. Because of this, it has been marked as inactive on your account.<\/p>\r\n\r\n<p>If you still use this card to pay for your services with us, please login to your account and update your payment details to avoid any disruption to services.<\/p>\r\n\r\n{{{settings.mail.email_signature_html}}}",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour credit or debit card ending in {{last_4}}, on file at {{settings.general.sitename}} has expired. Because of this, it has been marked as inactive on your account.\r\n\r\nIf you still use this card to pay for your services with us, please login to your account and update your payment details to avoid any disruption to services.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}\r\n",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour credit or debit card ending in {{last_4}}, on file at {{settings.general.sitename}} has expired. Because of this, it has been marked as inactive on your account.\r\n\r\nIf you still use this card to pay for your services with us, please login to your account and update your payment details to avoid any disruption to services.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}\r\n"
+            },
+            "name": "Credit\/Debit Card Expired",
+            "available_tags": "client.first_name,client.last_name,client.company,client.address1,client.address2,client.city,client.state,client.postcode,client.country,client.phone,last_4"
+        },
+        "client_password_reset_request": {
+            "slug": "client_password_reset_request",
+            "EmailTemplateTranslation": {
+                "subject": "Password Reset Request",
+                "html_body_default": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\n\n<p>A password reset request for your account at {{settings.sitename}}. If you did not request a new password, you can disregard this email.<\/p>\n\n<p>To have a new password emailed to you, please confirm your request by going here: {{reset_url}}<\/p>\n\n<p>{{{settings.mail.email_signature_html}}}<\/p>\n",
+                "html_body": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\n\n<p>A password reset request for your account at {{settings.sitename}}. If you did not request a new password, you can disregard this email.<\/p>\n\n<p>To have a new password emailed to you, please confirm your request by going here: {{reset_url}}<\/p>\n\n<p>{{{settings.mail.email_signature_html}}}<\/p>\n",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nA password reset request for your account at {{settings.sitename}}. If you did not request a new password, you can disregard this email.\r\n\r\nTo have a new password emailed to you, please confirm your request by going here: {{reset_url}}\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nA password reset request for your account at {{settings.sitename}}. If you did not request a new password, you can disregard this email.\r\n\r\nTo have a new password emailed to you, please confirm your request by going here: {{reset_url}}\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Request A Password Reset (Client)",
+            "available_tags": "client.first_name, client.last_name, client.email, reset_url"
+        },
+        "domain_renewed": {
+            "slug": "domain_renewed",
+            "EmailTemplateTranslation": {
+                "subject": "Your Domain has been renewed",
+                "html_body_default": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\n\n<p>Your domain renewal request for {{domain.domain}} has been processed. Your next renewal date is {{next_renewal}}<\/p>\n\n<p>{{{settings.mail.email_signature_html}}}<\/p>\n",
+                "html_body": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\n\n<p>Your domain renewal request for {{domain.domain}} has been processed. Your next renewal date is {{next_renewal}}<\/p>\n\n<p>{{{settings.mail.email_signature_html}}}<\/p>\n",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour domain renewal request for {{domain.domain}} has been processed. Your next renewal date is {{next_renewal}}\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour domain renewal request for {{domain.domain}} has been processed. Your next renewal date is {{next_renewal}}\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Domain Renewed",
+            "available_tags": "client.first_name,client.last_name,client.company,client.address1,client.address2,client.city,client.state,client.postcode,client.country,client.phone,next_invoice,next_renewal,domain.domain,domain.nameservers,domain.date_registered,domain.date_expires,domain.registration_period"
+        },
+        "domain_transfer_initiated": {
+            "slug": "domain_transfer_initiated",
+            "EmailTemplateTranslation": {
+                "subject": "Domain Transfer Initiated",
+                "html_body_default": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;Your domain transfer&nbsp;request for {{domain.domain}} has been received. We&amp;#39;ll now contact your existing registrar to start the transfer process.&nbsp;&lt;\/p&gt;\n\n&lt;p&gt;You may be asked by your previous registrar to confirm the transfer request. Once this has been done, and they have approved the request, please allow approximately five working days for the transfer to complete.&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "html_body": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;Your domain transfer&nbsp;request for {{domain.domain}} has been received. We&amp;#39;ll now contact your existing registrar to start the transfer process.&nbsp;&lt;\/p&gt;\n\n&lt;p&gt;You may be asked by your previous registrar to confirm the transfer request. Once this has been done, and they have approved the request, please allow approximately five working days for the transfer to complete.&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour domain transfer request for {{domain.domain}} has been received. We&#039;ll now contact your existing registrar to start the transfer process. \r\n\r\nYou may be asked by your previous registrar to confirm the transfer request. Once this has been done, and they have approved the request, please allow approximately five working days for the transfer to complete.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour domain transfer request for {{domain.domain}} has been received. We&#039;ll now contact your existing registrar to start the transfer process. \r\n\r\nYou may be asked by your previous registrar to confirm the transfer request. Once this has been done, and they have approved the request, please allow approximately five working days for the transfer to complete.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Domain Transfer Initiated",
+            "available_tags": "client.first_name,client.last_name,client.company,client.address1,client.address2,client.city,client.state,client.postcode,client.country,client.phone,next_invoice,domain.domain,domain.nameservers,domain.date_registered,domain.date_expires,domain.registration_period"
+        },
+        "domain_restored": {
+            "slug": "domain_restored",
+            "EmailTemplateTranslation": {
+                "subject": "Domain Restore Initiated",
+                "html_body_default": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\n\n<p>Your domain restore request for {{domain.domain}} has been received. We&#39;ll now start the restore process.<\/p>\n\n<p>This please allow up to 24 hours for this to be completed.<\/p>\n\n<p>{{{settings.mail.email_signature_html}}}<\/p>\n",
+                "html_body": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\n\n<p>Your domain restore request for {{domain.domain}} has been received. We&#39;ll now start the restore process.<\/p>\n\n<p>This please allow up to 24 hours for this to be completed.<\/p>\n\n<p>{{{settings.mail.email_signature_html}}}<\/p>\n",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour domain restore request for {{domain.domain}} has been received. We&#039;ll now start the restore process.\r\n\r\nThis please allow up to 24 hours for this to be completed.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour domain restore request for {{domain.domain}} has been received. We&#039;ll now start the restore process.\r\n\r\nThis please allow up to 24 hours for this to be completed.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Domain Restored",
+            "available_tags": "client.first_name,client.last_name,client.company,client.address1,client.address2,client.city,client.state,client.postcode,client.country,client.phone,next_invoice,domain.domain,domain.nameservers,domain.date_registered,domain.date_expires,domain.registration_period"
+        },
+        "domain_registered": {
+            "slug": "domain_registered",
+            "EmailTemplateTranslation": {
+                "subject": "Registration confirmation - {{domain.domain}} ",
+                "html_body_default": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\n\n<p>Your domain name, {{domain.domain}} was successfully registered and can now be managed via your customer control panel.<\/p>\n\n<p>Your next domain renewal date is {{domain.date_expires}}.<\/p>\n\n<p>{{{settings.mail.email_signature_html}}}<\/p>\n",
+                "html_body": "<p>Dear {{client.first_name}} {{client.last_name}},<\/p>\n\n<p>Your domain name, {{domain.domain}} was successfully registered and can now be managed via your customer control panel.<\/p>\n\n<p>Your next domain renewal date is {{domain.date_expires}}.<\/p>\n\n<p>{{{settings.mail.email_signature_html}}}<\/p>\n",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour domain name, {{domain.domain}} was successfully registered and can now be managed via your customer control panel.\r\n\r\nYour next domain renewal date is {{domain.date_expires}}.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour domain name, {{domain.domain}} was successfully registered and can now be managed via your customer control panel.\r\n\r\nYour next domain renewal date is {{domain.date_expires}}.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Domain Registered",
+            "available_tags": "client.first_name,client.last_name,client.company,client.address1,client.address2,client.city,client.state,client.postcode,client.country,client.phone,next_invoice,product.name,product.description,purchase.order_id,purchase.first_payment,purchase.recurring_payment,purchase.next_renewal,purchase.next_invoice,purchase.status,domain.domain,domain.date_registered,domain.date_expires,domain.registration_period"
+        },
+        "staff_password_reset_request": {
+            "slug": "staff_password_reset_request",
+            "EmailTemplateTranslation": {
+                "subject": "Password Reset Request",
+                "html_body_default": "<p>Dear {{staff.first_name}} {{staff.last_name}},<\/p>\n\n<p>A password reset request for your account at {{settings.general.sitename}}. If you did not request a new password, you can disregard this email.<\/p>\n\n<p>To have a new password emailed to you, please confirm your request by going here: {{reset_url}}<\/p>\n\n{{{settings.mail.email_signature_html}}}",
+                "html_body": "<p>Dear {{staff.first_name}} {{staff.last_name}},<\/p>\n\n<p>A password reset request for your account at {{settings.general.sitename}}. If you did not request a new password, you can disregard this email.<\/p>\n\n<p>To have a new password emailed to you, please confirm your request by going here: {{reset_url}}<\/p>\n\n{{{settings.mail.email_signature_html}}}",
+                "plaintext_body_default": "Dear {{staff.first_name}} {{staff.last_name}},\r\n\r\nA password reset request for your account at {{settings.general.sitename}}. If you did not request a new password, you can disregard this email.\r\n\r\nTo have a new password emailed to you, please confirm your request by going here: {{reset_url}}\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{staff.first_name}} {{staff.last_name}},\r\n\r\nA password reset request for your account at {{settings.general.sitename}}. If you did not request a new password, you can disregard this email.\r\n\r\nTo have a new password emailed to you, please confirm your request by going here: {{reset_url}}\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Request A Password Reset (Staff)",
+            "available_tags": "staff.first_name,staff.last_name,reset_key"
+        },
+        "new_staff_password": {
+            "slug": "new_staff_password",
+            "EmailTemplateTranslation": {
+                "subject": "Your account password has been reset.",
+                "html_body_default": "<p>Dear {{staff.first_name}} {{staff.last_name}},<\/p>\n\n<p>Your password at {{settings.general.sitename}} has been reset either by yourself or a staff member. If you did not request a new password, please contact us immediately.<\/p>\n\n<p>Your new account password is: {{password}}<\/p>\n\n<p>We recommend you change this to something secure and memorable as soon as possible.<\/p>\n\n{{{settings.mail.email_signature_html}}}",
+                "html_body": "<p>Dear {{staff.first_name}} {{staff.last_name}},<\/p>\n\n<p>Your password at {{settings.general.sitename}} has been reset either by yourself or a staff member. If you did not request a new password, please contact us immediately.<\/p>\n\n<p>Your new account password is: {{password}}<\/p>\n\n<p>We recommend you change this to something secure and memorable as soon as possible.<\/p>\n\n{{{settings.mail.email_signature_html}}}",
+                "plaintext_body_default": "Dear {{staff.first_name}} {{staff.last_name}},\r\n\r\nYour password at {{settings.general.sitename}} has been reset either by yourself or a staff member. If you did not request a new password, please contact us immediately.\r\n\r\n===============================================================\r\nYour new account password is: {{password}}\r\n===============================================================\r\n\r\nWe recommend you change this to something secure and memorable as soon as possible.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{staff.first_name}} {{staff.last_name}},\r\n\r\nYour password at {{settings.general.sitename}} has been reset either by yourself or a staff member. If you did not request a new password, please contact us immediately.\r\n\r\n===============================================================\r\nYour new account password is: {{password}}\r\n===============================================================\r\n\r\nWe recommend you change this to something secure and memorable as soon as possible.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Send New Password to Staff",
+            "available_tags": "staff.first_name,staff.last_name,password"
+        },
+        "client_cc_payment_successful": {
+            "slug": "client_cc_payment_successful",
+            "EmailTemplateTranslation": {
+                "subject": "Credit Card payment succesfully made",
+                "html_body_default": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;A payment totalling&nbsp;{{currency.prefix}}{{total_payment}}{{currency.suffix}} was successfully taken from your account ending in&nbsp;{{cc.account_last4}}.&lt;\/p&gt;\n\n&lt;p&gt;This has been applied to invoice&nbsp;{{invoice.invoice_no}}.&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "html_body": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;A payment totalling&nbsp;{{currency.prefix}}{{total_payment}}{{currency.suffix}} was successfully taken from your account ending in&nbsp;{{cc.account_last4}}.&lt;\/p&gt;\n\n&lt;p&gt;This has been applied to invoice&nbsp;{{invoice.invoice_no}}.&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nA payment totalling {{total_payment}} was successfully taken from your account ending in {{cc.account_last4}}.\r\n\r\nThis has been applied to invoice {{invoice.invoice_no}}.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nA payment totalling {{total_payment}} was successfully taken from your account ending in {{cc.account_last4}}.\r\n\r\nThis has been applied to invoice {{invoice.invoice_no}}.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Client CC Payment Successful",
+            "available_tags": "invoice.invoice_no,invoice.date_due,invoice.date_paid,invoice.total,invoice.total_paid,client.first_name,client.last_name,client.company,client.email,transaction.description,transaction.amount,cc.account_last4,cc.account_type,cc.account_expiry,currency.code,currency.prefix,currency.suffix,total_payment"
+        },
+        "client_ach_payment_successful": {
+            "slug": "client_ach_payment_successful",
+            "EmailTemplateTranslation": {
+                "subject": "ACH payment succesfully made",
+                "html_body_default": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;A payment totalling&nbsp;{{currency.prefix}}{{total_payment}}{{currency.suffix}} was successfully taken from your account ending in&nbsp;{{ach.account_last4}}.&lt;\/p&gt;\n\n&lt;p&gt;This has been applied to invoice&nbsp;{{invoice.invoice_no}}.&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "html_body": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;A payment totalling&nbsp;{{currency.prefix}}{{total_payment}}{{currency.suffix}} was successfully taken from your account ending in&nbsp;{{ach.account_last4}}.&lt;\/p&gt;\n\n&lt;p&gt;This has been applied to invoice&nbsp;{{invoice.invoice_no}}.&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nA payment totalling {{total_payment}} was successfully taken from your account ending in {{ach.account_last4}}.\r\n\r\nThis has been applied to invoice {{invoice.invoice_no}}.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nA payment totalling {{total_payment}} was successfully taken from your account ending in {{ach.account_last4}}.\r\n\r\nThis has been applied to invoice {{invoice.invoice_no}}.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Client ACH Payment Successful",
+            "available_tags": "invoice.invoice_no,invoice.date_due,invoice.date_paid,invoice.total,invoice.total_paid,client.first_name,client.last_name,client.company,client.email,transaction.description,transaction.amount,ach.account_last4,ach.account_type,currency.code,currency.prefix,currency.suffix,total_payment"
+        },
+        "service_welcome_email": {
+            "slug": "service_welcome_email",
+            "EmailTemplateTranslation": {
+                "subject": "Your new hosting service is ready!",
+                "html_body_default": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;Your new hosting service ({{product.name}}) is ready for use!Your new account&nbsp;details can be found below:&lt;\/p&gt;\n\n&lt;p&gt;&lt;strong&gt;This email contains important account information, so be sure to keep it safe.&lt;\/strong&gt;&lt;\/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Domain:&lt;\/strong&gt; {{hosting.domain}}&lt;br \/&gt;\n&lt;strong&gt;NameServers:&lt;\/strong&gt; {{hosting.nameservers}},&lt;br \/&gt;\n&lt;strong&gt;Diskspace Allocation:&lt;\/strong&gt; {{hosting.diskspace_limit}}&lt;br \/&gt;\n&lt;strong&gt;Bandwidth Allocation:&lt;\/strong&gt; {{hosting.bandwidth_limit}}&lt;\/p&gt;\n\n&lt;h2&gt;Hosting Account Login Details&lt;\/h2&gt;\n\n&lt;p&gt;&lt;strong&gt;Username:&lt;\/strong&gt; {{hosting.username}}&lt;br \/&gt;\n&lt;strong&gt;Password:&lt;\/strong&gt; {{hosting.password}}&lt;\/p&gt;\n\n&lt;p&gt;Your next service renewal date will be on {{purchase.next_renewal}}&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "html_body": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;Your new hosting service ({{product.name}}) is ready for use!Your new account&nbsp;details can be found below:&lt;\/p&gt;\n\n&lt;p&gt;&lt;strong&gt;This email contains important account information, so be sure to keep it safe.&lt;\/strong&gt;&lt;\/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Domain:&lt;\/strong&gt; {{hosting.domain}}&lt;br \/&gt;\n&lt;strong&gt;NameServers:&lt;\/strong&gt; {{hosting.nameservers}},&lt;br \/&gt;\n&lt;strong&gt;Diskspace Allocation:&lt;\/strong&gt; {{hosting.diskspace_limit}}&lt;br \/&gt;\n&lt;strong&gt;Bandwidth Allocation:&lt;\/strong&gt; {{hosting.bandwidth_limit}}&lt;\/p&gt;\n\n&lt;h2&gt;Hosting Account Login Details&lt;\/h2&gt;\n\n&lt;p&gt;&lt;strong&gt;Username:&lt;\/strong&gt; {{hosting.username}}&lt;br \/&gt;\n&lt;strong&gt;Password:&lt;\/strong&gt; {{hosting.password}}&lt;\/p&gt;\n\n&lt;p&gt;Your next service renewal date will be on {{purchase.next_renewal}}&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour new hosting service ({{product.name}}) is ready for use!Your new account details can be found below:\r\n\r\nThis email contains important account information, so be sure to keep it safe.\r\n\r\n=============================================\r\n\r\nDomain: {{hosting.domain}}\r\nNameServers: {{hosting.nameservers}},\r\nDiskspace Allocation: {{hosting.diskspace_limit}}\r\nBandwidth Allocation: {{hosting.bandwidth_limit}}\r\n\r\n=============================================\r\nHosting Account Login Details\r\n=============================================\r\nUsername: {{hosting.username}}\r\nPassword: {{hosting.password}}\r\n\r\nYour next service renewal date will be on {{purchase.next_renewal}}\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour new hosting service ({{product.name}}) is ready for use!Your new account details can be found below:\r\n\r\nThis email contains important account information, so be sure to keep it safe.\r\n\r\n=============================================\r\n\r\nDomain: {{hosting.domain}}\r\nNameServers: {{hosting.nameservers}},\r\nDiskspace Allocation: {{hosting.diskspace_limit}}\r\nBandwidth Allocation: {{hosting.bandwidth_limit}}\r\n\r\n=============================================\r\nHosting Account Login Details\r\n=============================================\r\nUsername: {{hosting.username}}\r\nPassword: {{hosting.password}}\r\n\r\nYour next service renewal date will be on {{purchase.next_renewal}}\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Service Welcome Email (Hosting)",
+            "available_tags": "client.first_name,client.last_name,client.company,client.address1,client.address2,client.city,client.state,client.postcode,client.country,client.phone,next_invoice,product.name,product.description,purchase.order_id,purchase.first_payment,purchase.recurring_payment,purchase.next_renewal,purchase.next_invoice,purchase.status,hosting.domain,hosting.nameservers,hosting.diskspace_limit,hosting.diskspace_usage,hosting.bandwidth_limit,hosting.bandwidth_usage,hosting.username,hosting.password"
+        },
+        "service_terminated": {
+            "slug": "service_terminated",
+            "EmailTemplateTranslation": {
+                "subject": "Service Terminated",
+                "html_body_default": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;Your service provided by us has been terminated. This could be due to either late\/non payment, or for violation of our terms of service.&nbsp;&lt;\/p&gt;\n\n&lt;p&gt;If you feel this change was made in error, please contact us for assistance.&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "html_body": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\n\n&lt;p&gt;Your service provided by us has been terminated. This could be due to either late\/non payment, or for violation of our terms of service.&nbsp;&lt;\/p&gt;\n\n&lt;p&gt;If you feel this change was made in error, please contact us for assistance.&lt;\/p&gt;\n\n&lt;p&gt;{{{settings.mail.email_signature_html}}}&lt;\/p&gt;\n",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour service provided by us has been terminated. This could be due to either late\/non payment, or for violation of our terms of service. \r\n\r\nIf you feel this change was made in error, please contact us for assistance.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nYour service provided by us has been terminated. This could be due to either late\/non payment, or for violation of our terms of service. \r\n\r\nIf you feel this change was made in error, please contact us for assistance.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Service Terminated",
+            "available_tags": "client.first_name,client.last_name,client.company,client.address1,client.address2,client.city,client.state,client.postcode,client.country,client.phone"
+        },
+        "client_account_credit_payment_successful": {
+            "slug": "client_account_credit_payment_successful",
+            "EmailTemplateTranslation": {
+                "subject": "Account Credit payment succesfully made",
+                "html_body_default": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\r\n\r\n&lt;p;A payment totalling&amp;nbsp;{{currency.prefix}}{{total_payment}}{{currency.suffix}} was successfully taken from your account credit.&lt;\/p&gt;\r\n\r\n&lt;p&gt;This has been applied to invoice&amp;nbsp;{{invoice.invoice_no}}.&lt;\/p&gt;\r\n\r\n{{{settings.mail.email_signature_html}}}\r\n",
+                "html_body": "&lt;p&gt;Dear {{client.first_name}} {{client.last_name}},&lt;\/p&gt;\r\n\r\n&lt;p;A payment totalling&amp;nbsp;{{currency.prefix}}{{total_payment}}{{currency.suffix}} was successfully taken from your account credit.&lt;\/p&gt;\r\n\r\n&lt;p&gt;This has been applied to invoice&amp;nbsp;{{invoice.invoice_no}}.&lt;\/p&gt;\r\n\r\n{{{settings.mail.email_signature_html}}}\r\n",
+                "plaintext_body_default": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nA payment totalling {{currency.prefix}}{{total_payment}}{{currency.suffix}} was successfully taken from your account credit.\r\n\r\nThis has been applied to invoice {{invoice.invoice_no}}.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}",
+                "plaintext_body": "Dear {{client.first_name}} {{client.last_name}},\r\n\r\nA payment totalling {{currency.prefix}}{{total_payment}}{{currency.suffix}} was successfully taken from your account credit.\r\n\r\nThis has been applied to invoice {{invoice.invoice_no}}.\r\n\r\n{{{settings.mail.email_signature_plaintext}}}"
+            },
+            "name": "Client Account Credit Payment Successful",
+            "available_tags": "invoice.invoice_no,invoice.date_due,invoice.date_paid,invoice.total,invoice.total_paid,client.first_name,client.last_name,client.company,client.email,transaction.description,transaction.amount,currency.code,currency.prefix,currency.suffix,total_payment"
+        }
+    }
+}
