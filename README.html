@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>WHSuite - ReadMe</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8">
+                        <h1>WHSuite Readme</h1>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <h1>
+                            <a href="http://docs.whsuite.com" class="btn btn-primary btn-block">View Full Documentation</a>
+                        </h1>
+                    </div>
+                </div>
+                <hr>
+
+                <h2>System Requirements</h2>
+                <p> In general, WHSuite will work with most good Linux based web hosting providers offering up to date PHP hosting.</p>
+                <p>WHSuite does not currently officialy support Windows hosting. If you are interested on using WHSuite on a Windows based hosting environment, please do visit our forums for any discussions about doing so.</p>
+                <p><strong>WHSuite's fully system requirements can be found on our documentation website at <a href="http://docs.whsuite.com">docs.whsuite.com</a>.</strong></p>
+
+                <h2>Installation</h2>
+                <p class="alert alert-info">Please install into a fresh directory and empty database.</p>
+                <p>To get started with the installation, upload the provided files to your hosting account using an FTP client. The following files/directorys should have write access for your immediate user:</p>
+                <ul>
+                    <li><strong>/whsuite/app/storage</strong> (recursive)</li>
+                    <li><strong>/whsuite/app/configs</strong></li>
+                </ul>
+                <p>Once you've set your permissions, create your MySQL database. It's recommended that your database collation/encoding is be set to "utf8_general_ci". Next, browse to http://&lt;your-whsuite-domain&gt;/install/ to start the installation. From there, follow the on screen instructions</p>
+
+                <h3>.htaccess File</h3>
+                <p>WHSuite supports running both in a sub directory (e.g yourhost.com/billing) or a subdomain (eg billing.yourhost.com) however on some server environments, you'll need to add a line to your .htaccess file in the root of your installation.</p>
+                <p>If when you first browse to the install directory after uploading WSuite you see no styling, you'll need to make this minor modification.</p>
+                <p>Open your root .htaccess file (this is located in the same place as your index.php and whsuite directory) with a text editor of your choice.</p>
+                <p>Near the top you'll see a line that reads <code>#RewriteBase /</code>. Uncomment this line.</p>
+                <p>If you're working in a sub-directory, you'll want this line to include that directory name. So if you were installing at yourhosting.com/billing this line should read:</p>
+                <pre>RewriteBase /billing/</pre>
+                <p class="alert alert-warning">When your installation is finished <strong>we strongly recommend deleting the install.php file</strong> from your server.</p>
+
+                <h2>Translations</h2>
+                <p>Currently all translations available can be found within a repository within our <a href="http://github.com/whsuite" target="_blank">GitHub account</a> at <a href="http://github.com/whsuite/language-packs" target="_blank">http://github.com/whsuite/language-packs</a>.</p>
+
+                <h2>Upgrading</h2>
+                <p>To upgrade your installation from a previous version of WHSuite, simply replace the primary WHSuite files, leaving in place any custom uploads or other site-specific files. These are stored in your /whsuite/app/storage/ directory. Remember to also back up any custom changes you've made to the default themes.</p>
+
+                <p>When replacing the files, you should choose the 'merge' option in your FTP program to retain any additional files such as your database configuration file located in /whsuite/app/config</p>
+
+                <p>The following files should be kept in tact from your previous installation:</p>
+                <ul>
+                    <li>/whsuite/app/config/database.php</li>
+                    <li>/whsuite/app/storage/whsuite.installed</li>
+                    <li>/whsuite/app/storage/uploader <small>(if present)</small></li>
+                </ul>
+
+                <p>Once you've uploaded the modified files, browse to http://YOUR-SITE/install to upgrade your installation. Follow the on-screen instructions to complete the upgrade process.</p>
+
+                <p class="alert alert-warning">When your upgrade is finished <strong>we strongly recommend deleting the install.php file</strong> from your server.</p>
+
+                <h3>Updating Addons</h3>
+                <p>After upgrading WHSuite, visit your admin area addons page to check if there are any updates available. If you wish to apply these updates, simply click the update button for each addon.</p>
+
+                <h2>Support</h2>
+                <p>If you encounter any problems with WHSuite or it's addons please <a href="https://github.com/WHSuite/whsuite/issues" target="_blank">create an issue within GitHub</a>.</p>
+
+                <p>If you have a problem with a specific addon, please create an issue on that addons repository. You can find all our repositories <a href="http://github.com/whsuite" target="_blank">here</a>.</p>
+                <hr>
+                <p class="text-center text-muted">Copyright &copy; 2013-2016 Turn 24</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
