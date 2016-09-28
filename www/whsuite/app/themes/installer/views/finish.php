@@ -15,9 +15,8 @@
 
     <ul>
         <li><a href="http://docs.whsuite.com" target="_blank">WHSuite Documentation</a></li>
-        <li><a href="https://translations.whsuite.com" target="_blank">WHSuite Language Packs</a></li>
-        <li><a href="https://forums.whsuite.com" target="_blank">WHSuite Community Forums</a></li>
-        <li><a href="https://account.whsuite.com" target="_blank">WHSuite Cutomer Support and Billing</a></li>
+        <li><a href="https://github.com/WHSuite/language-packs" target="_blank">WHSuite Language Packs</a></li>
+        <li><a href="https://github.com/WHSuite/whsuite" target="_blank">Get involved on GitHub</a></li>
     </ul>
 
 <?php echo $view->fetch('elements/footer.php'); ?>
