@@ -47,6 +47,21 @@
         "keboola/csv": "1.1.*",
         "patchwork/utf8": "1.1.*",
         "naneau/semver": "0.*",
-        "filp/whoops": "1.*"
+        "filp/whoops": "1.*",
+
+        "whsuite/addon-authorizenet": "1.*",
+        "whsuite/addon-cpanel": "1.*",
+        "whsuite/addon-custom-products": "1.*",
+        "whsuite/addon-directadmin": "1.*",
+        "whsuite/addon-enom": "1.*",
+        "whsuite/addon-knowledge-base": "1.*",
+        "whsuite/addon-logicboxes": "1.*",
+        "whsuite/addon-offlinepayment": "1.*",
+        "whsuite/addon-paypal": "1.*",
+        "whsuite/addon-plesk": "1.*",
+        "whsuite/addon-stripe": "1.*",
+        "whsuite/addon-support-desk": "1.*",
+        "whsuite/addon-uploader": "1.*",
+        "whsuite/addon-virtualmin": "1.*"
     }
 }
